@@ -1,24 +1,30 @@
-@import 'Colors.scss';
-
 :root {
   font-family: 'Times New Roman', serif;
   line-height: 1.5;
-  font-style: 150%;
   font-weight: 400;
-
+  font-size: 120%;
   color: var(--text-color);
   background-color: var(--bg-color);
   text-align: justify;
+  --fixed-width: 50ch;
+  --body-padding: 1rem;
+}
+
+body {
+  margin: 0;
+  padding: var(--body-padding);
 }
 
 #root {
-  width: fit-content;
   margin: 0 auto;
-  padding: 1rem;
 }
 
 .additional {
   color: var(--additional-text)
+}
+
+.no-additional {
+  color: var(--text-color)
 }
 
 .no-italic {
@@ -33,3 +39,11 @@ h5,
 h6 {
   margin: 0;
 }
+
+.hour-content {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+@import 'Colors.scss';
+@import 'Responsive.scss';
