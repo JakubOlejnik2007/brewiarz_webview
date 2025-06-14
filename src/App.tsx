@@ -3,6 +3,24 @@ import './sass/App.scss'
 import type { FullOffice } from './types/FullOffice.interface';
 
 function App() {
+  const [fileContent, setFileContent] = useState<null | FullOffice>(null);
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    console.log(file)
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const json = JSON.parse(reader.result as string);
+        setFileContent(json);
+        console.log(json);
+      } catch (err) {
+        console.error("Invalid JSON", err);
+      }
+    };
+    reader.readAsText(file);
+  };
 
   return (
     <main>
