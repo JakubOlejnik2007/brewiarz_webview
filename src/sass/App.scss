@@ -3,8 +3,29 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
 
+#root {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.psalm-container {
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.psalm-heading {
+  max-width: 40ch;
+  margin: 0 auto;
+}
+
+.psalm-verse {
+  white-space: pre-line;
+}

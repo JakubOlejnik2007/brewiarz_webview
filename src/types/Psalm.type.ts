@@ -1,4 +1,4 @@
-export type Psalm = {
+export type TPsalm = {
     antiphon: string;
     title: string | null;
     subtitle: string | null;
