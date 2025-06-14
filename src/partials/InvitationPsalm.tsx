@@ -1,7 +1,7 @@
 import type { TPsalm } from "../types/Psalm.type";
 import Antiphon from "./Antiphon";
 import "../sass/Psalm.scss"
-import "../sass/Invitation.scss"
+
 
 interface InvitationPsalmProps {
     psalm: TPsalm,
@@ -15,44 +15,31 @@ const InvitationPsalm = ({ psalm, antiphon }: InvitationPsalmProps) => {
     const psalmVerse = psalm.verse as string;
 
     return (
-        <div>
-            <h1 className="invitation__heading">Wezwanie</h1>
-
-            <p className="invitation__introduction">
-                Jeśli psalm Wezwania ze swoją antyfoną ma poprzedzać Jutrznię, można go opuścić ze słusznej przyczyny.
+        <div className="psalm">
+            <h2 className="psalm__title">{psalm.title}</h2>
+            <h3 className="psalm__subtitle">{psalm.subtitle}</h3>
+            <p className="psalm__verse">
+                {psalmVerse.substring(0, psalmVerse.indexOf("("))}
+                <span className="no-italic">{psalmVerse.substring(psalmVerse.indexOf("("), psalmVerse.length)}</span>
             </p>
 
-            <p>
-                <span className="additional">Przewodniczący - † </span>Panie, otwórz wargi moje. <br />
-                <span className="additional">Wszyscy -</span> A usta moje będą głosić Twoją chwałę.
-            </p>
-
-            <div className="psalm">
-                <h2 className="psalm__title">{psalm.title}</h2>
-                <h3 className="psalm__subtitle">{psalm.subtitle}</h3>
-                <p className="psalm__verse">
-                    {psalmVerse.substring(0, psalmVerse.indexOf("("))}
-                    <span className="no-italic">{psalmVerse.substring(psalmVerse.indexOf("("), psalmVerse.length)}</span>
-                </p>
-
-                <Antiphon antiphon={antiphon} />
-                {
-                    parts.map(psalmPart => {
-                        console.log(psalmPart)
-                        return (<><p className="psalm-verse">
-                            {psalmPart.split("\n").map(psalmVerse => <>{psalmVerse}<br /></>)}
+            <Antiphon antiphon={antiphon} />
+            {
+                parts.map(psalmPart => {
+                    console.log(psalmPart)
+                    return (<><p className="psalm-verse">
+                        {psalmPart.split("\n").map(psalmVerse => <>{psalmVerse}<br /></>)}
 
 
-                        </p>
-                            <Antiphon antiphon={antiphon} />
+                    </p>
+                        <Antiphon antiphon={antiphon} />
 
-                        </>)
+                    </>)
 
 
 
-                    })
-                }
-            </div>
+                })
+            }
         </div>
     )
 }
