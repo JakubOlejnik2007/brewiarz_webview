@@ -1,6 +1,7 @@
 import type { TPsalm } from "../types/Psalm.type";
 import Antiphon from "./Antiphon";
 import "../sass/Psalm.scss"
+import "../sass/Invitation.scss"
 
 interface InvitationPsalmProps {
     psalm: TPsalm,
@@ -15,14 +16,20 @@ const InvitationPsalm = ({ psalm, antiphon }: InvitationPsalmProps) => {
 
     return (
         <div>
+            <h1 className="invitation__heading">Wezwanie</h1>
+
+            <p className="invitation__introduction">
+                Jeśli psalm Wezwania ze swoją antyfoną ma poprzedzać Jutrznię, można go opuścić ze słusznej przyczyny.
+            </p>
+
             <p>
                 <span className="additional">Przewodniczący - † </span>Panie, otwórz wargi moje. <br />
                 <span className="additional">Wszyscy -</span> A usta moje będą głosić Twoją chwałę.
             </p>
 
             <div className="psalm">
-                <h1 className="psalm__title">{psalm.title}</h1>
-                <h2 className="psalm__subtitle">{psalm.subtitle}</h2>
+                <h2 className="psalm__title">{psalm.title}</h2>
+                <h3 className="psalm__subtitle">{psalm.subtitle}</h3>
                 <p className="psalm__verse">
                     {psalmVerse.substring(0, psalmVerse.indexOf("("))}
                     <span className="no-italic">{psalmVerse.substring(psalmVerse.indexOf("("), psalmVerse.length)}</span>
