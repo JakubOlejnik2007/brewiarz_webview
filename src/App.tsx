@@ -38,11 +38,12 @@ function App() {
         fileContent && fileContent.hours.map((hour, idx) => <li><button onClick={e => setHour(idx)}>{hour.name}</button></li>)
       }
       </ul>
+      <div className="hour-content">
+        {
+          fileContent && hour === 0 && <Invtitation antiphon={fileContent.hours[0].name === "Wezwanie" ? fileContent.hours[0].antiphon : ""} />
 
-      {
-        fileContent && hour === 0 && <Invtitation antiphon={fileContent.hours[0].name === "Wezwanie" ? fileContent.hours[0].antiphon : ""} />
-
-      }
+        }
+      </div>
     </main>
   )
 }
