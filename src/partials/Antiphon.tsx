@@ -6,13 +6,9 @@ interface AntiphonProps {
 const Antiphon = ({ antiphon, count }: AntiphonProps) => {
     return (
         <p>
-            <span style={{
-                color: "red"
-            }}>
+            <span className="additional">
                 {!count ? "Ant." : `${count} ant.`}
-            </span> {antiphon.split("/")[0]} <span style={{
-                color: "red"
-            }}>
+            </span> {antiphon.split("/")[0]} <span className="additional">
                 /
             </span> {antiphon.split("/")[1]}
         </p>
