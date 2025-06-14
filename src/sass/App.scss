@@ -13,10 +13,22 @@
 #root {
   width: fit-content;
   margin: 0 auto;
-  text-align: center;
   padding: 1rem;
 }
 
 .additional {
   color: var(--additional-text)
+}
+
+.no-italic {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
