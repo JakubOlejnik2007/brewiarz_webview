@@ -1,0 +1,12 @@
+:root,
+[data-theme="dark"] {
+    --bg-color: #242424;
+    --text-color: rgba(255, 255, 255, 0.87);
+    --additional-text: red;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #eeeeee;
+    --accent-color: #3399ff;
+}

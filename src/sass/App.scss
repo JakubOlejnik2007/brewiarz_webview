@@ -1,10 +1,13 @@
+@import 'Colors.scss';
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', serif;
   line-height: 1.5;
+  font-style: 150%;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
 
 #root {
@@ -14,18 +17,6 @@
   padding: 1rem;
 }
 
-.psalm-container {
-  display: inline-block;
-  text-align: center;
-  margin: 20px auto;
-  text-align: left;
-}
-
-.psalm-heading {
-  max-width: 40ch;
-  margin: 0 auto;
-}
-
-.psalm-verse {
-  white-space: pre-line;
+.additional {
+  color: var(--additional-text)
 }
