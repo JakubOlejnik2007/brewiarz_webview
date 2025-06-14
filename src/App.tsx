@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './sass/App.scss'
 import type { FullOffice } from './types/FullOffice.interface';
 
@@ -21,6 +21,13 @@ function App() {
     };
     reader.readAsText(file);
   };
+
+  useEffect(() => {
+    fetch('/za_zmarlych.json')
+      .then(res => res.json())
+      .then(setFileContent)
+      .catch(err => console.error("Failed to load default file", err));
+  }, []);
 
   return (
     <main>

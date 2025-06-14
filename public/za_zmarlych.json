@@ -1,0 +1,144 @@
+{
+    "name": "Oficjum za zmarłych",
+    "hours": [
+        {
+            "name": "Wezwanie",
+            "antiphon": "Uwielbiajmy Króla wieków, / dla którego wszystko żyje."
+        },
+        {
+            "name": "Godzina czytań",
+            "isTeDeum": "false",
+            "hymn": [
+                "1 Boże, jesteś ponad czasem,\nW Tobie tylko źródło życia\nWejrzyj na nas, ludzi grzesznych\nI podległych prawu śmierci.\n2 Śmierć ustanowiłeś karą\nDla człowieka upadłego,\nAby proch, co w proch powraca,\nPrzez nią mógł przebłagać Ciebie.\n3 Z Twojej woli jednak, Ojcze,\nWinno przetrwać tchnienie życia\nJako ziarno niezniszczalne,\nKtóre znakiem jest wieczności.\n4 W Tobie ufność pokładamy,\nŻe do życia nas przywrócisz,\nI wydźwignie nas ku Tobie\nChrystus, pierwszy zmartwychwstały.\n5 Wszystkich, co zasnęli w Tobie,\nWprowadź do królestwa swego,\nJezus bowiem dał im wiarę,\nA Najświętszy Duch namaścił. Amen.",
+                "Albo o jednym zmarłym:\n\n1 Zmiłuj się, Boże, nad naszym bratem,\nKtórego droga dobiegła kresu;\nDziś oto stoi przed Twoim tronem\nNa sąd czekając.\n2 Nie ma niczego na swą obronę\nPrócz krwi Chrystusa i Jego męki,\nKtóra przyniosła całemu światu\nObmycie z grzechów.\n3 Wspomnij, o Panie, że go stworzyłeś,\nBy stał się wiernym obrazem Twoim,\nDałeś mu życie i miłowałeś\nJak własne dziecko.\n4 Przeważ na szali sprawiedliwości\nPrzewinę ludzką cierpieniem Syna;\nOkaż swą litość i miłosierdzie\nZmarłemu bratu.\n5 Ty, który dajesz nadzieję wiernym\nPowstania z martwych ze Zbawicielem,\nBądź pochwalony przez śmierć i życie,\nNajlepszy Ojcze. Amen.",
+                "Albo o jednej zmarłej:\n\n1 Zmiłuj się, Boże, nad naszą siostrą,\nBo już jej droga dobiegła kresu;\nDziś oto stoi przed Twoim tronem\nNa sąd czekając.\n2 Nie ma niczego na swą obronę\nPrócz krwi Chrystusa i Jego męki,\nKtóra przyniosła całemu światu\nObmycie z grzechów.\n3 Wspomnij, o Panie, że ją stworzyłeś,\nBy wiernym była obrazem Twoim,\nDałeś jej życie i miłowałeś\nJak własne dziecko.\n4 Przeważ na szali sprawiedliwości\nPrzewinę ludzką cierpieniem Syna;\nOkaż swą litość i miłosierdzie\nTej zmarłej siostrze.\n5 Ty, który dajesz nadzieję wiernym\nPowstania z martwych ze Zbawicielem,\nBądź pochwalony przez śmierć i życie,\nNajlepszy Ojcze. Amen."
+            ],
+            "psalmodia": [
+                {
+                    "antiphon": "Utworzyłeś mnie z ziemi i przyodziałeś ciałem, * Panie, mój Zbawicielu, / spraw, bym powstał żywy w dniu ostatecznym.",
+                    "title": "Psalm 40, 2-14. 17-18",
+                    "subtitle": null,
+                    "numeration": "I",
+                    "verse": null,
+                    "psalm": "Z  nadzieją czekałem  na  Pana,  †\na  On  się  pochylił  nade  mną  *\ni  wysłuchał  mego  wołania.\nWydobył  mnie  z  dołu  zagłady,  *\nz  błotnego  grzęzawiska.\nStopy  moje  postawił  na  skale  *\ni  umocnił  moje  kroki.\nWłożył  mi  w  usta  pieśń  nową,  *\nśpiew  dla  naszego  Boga.\nWielu  to  ujrzy  i  przejmie  ich  trwoga,  *\ni  zaufają  Panu.\nSzczęśliwy człowiek, który nadzieję pokłada w Panu, *\na  nie  naśladuje  pysznych  i  skłonnych  do  kłamstwa.\nPanie,  Boże  mój,  wiele  uczyniłeś  cudów  *\ni  w  Twoich  zamiarach  wobec  nas  nikt  Ci  nie  dorówna.\nA  gdybym  chciał je  głosić  i  opowiadać,  *\nbyłyby  liczniejsze,  niż  można  to  wyrazić.\nNie  chciałeś  ofiary  krwawej  ani  z  płodów  ziemi,  †\nlecz  otwarłeś  mi  uszy;  *\nnie  żądałeś  całopalenia  i  ofiary  za  grzechy.\nWtedy  powiedziałem:  „Oto  przychodzę.  *\nW  zwoju  księgi jest  o  mnie  napisane:\nRadością jest  dla  mnie  pełnić Twoją  wolę,  mój  Boże,  *\na  Twoje  Prawo  mieszka  w  moim  sercu”.",
+                    "doxologia": true
+                },
+                {
+                    "antiphon": "Panie,  racz mnie  wybawić,  *  Panie,  pośpiesz mi  z  pomocą!",
+                    "title": null,
+                    "subtitle": null,
+                    "numeration": "II",
+                    "verse": null,
+                    "psalm": "Z  nadzieją czekałem  na  Pana,  †\na  On  się  pochylił  nade  mną  *\ni  wysłuchał  mego  wołania.\nWydobył  mnie  z  dołu  zagłady,  *\nz  błotnego  grzęzawiska.\nStopy  moje  postawił  na  skale  *\ni  umocnił  moje  kroki.\nWłożył  mi  w  usta  pieśń  nową,  *\nśpiew  dla  naszego  Boga.\nWielu  to  ujrzy  i  przejmie  ich  trwoga,  *\ni  zaufają  Panu.\nSzczęśliwy człowiek, który nadzieję pokłada w Panu, *\na  nie  naśladuje  pysznych  i  skłonnych  do  kłamstwa.\nPanie,  Boże  mój,  wiele  uczyniłeś  cudów  *\ni  w  Twoich  zamiarach  wobec  nas  nikt  Ci  nie  dorówna.\nA  gdybym  chciał je  głosić  i  opowiadać,  *\nbyłyby  liczniejsze,  niż  można  to  wyrazić.\nNie  chciałeś  ofiary  krwawej  ani  z  płodów  ziemi,  †\nlecz  otwarłeś  mi  uszy;  *\nnie  żądałeś  całopalenia  i  ofiary  za  grzechy.\nWtedy  powiedziałem:  „Oto  przychodzę.  *\nW  zwoju  księgi jest  o  mnie  napisane:\nRadością jest  dla  mnie  pełnić Twoją  wolę,  mój  Boże,  *\na  Twoje  Prawo  mieszka  w  moim  sercu”.",
+                    "doxologia": true
+                },
+                {
+                    "antiphon": "Dusza  moja  pragnie  Boga żywego,  *  kiedyż przyjdę  i  ujrzę  oblicze  Boże?",
+                    "title": "Psalm 42",
+                    "subtitle": null,
+                    "numeration": null,
+                    "verse": null,
+                    "psalm": "Jak  łania  pragnie  wody  ze strumieni,  *\ntak  dusza  moja  pragnie  Ciebie,  Boże.\nDusza  moja  Boga  pragnie,  Boga żywego,  *\nkiedyż  więc przyjdę  i  ujrzę  oblicze  Boże?\nŁzy  są  moim chlebem  we  dnie  i  w  nocy;  *\n„Gdzie jest  twój  Bóg?”  pytają  mnie  co  dzień.\nRozpływa  się we mnie  moja  dusza,  *\ngdy wspominam, jak z tłumem kroczyłem do  Bożego domu,\nW  świątecznym  orszaku,  *\nwśród  głosów  radości  i  chwały.\nCzemu  zgnębiona jesteś,  duszo  moja,  *\ni  czemu  trwożysz  się  we mnie?\nUfaj  Bogu,  bo jeszcze  wysławiać  Go  będę:  *\nOn  zbawieniem  mojego  oblicza  i  moim  Bogiem!\nA  we  mnie  samym  dusza przygnębiona,  †\nprzeto  wspominam  Cię  z ziemi  Jordanu,  *\nz  ziemi  Hermonu  i  góry  Misar.\nGłębia przyzywa  głębię  hukiem  wodospadów.  *\nWszystkie  Twe  nurty  i  fale  nade  mną  się  przewalają.\nNiech  Pan  udzieli  mi  we  dnie  swej  łaski,  †\na  w  nocy  będę  Mu  śpiewał,  *\nbędę  sławił  Boga mego  życia.\nMówię  do  Boga:  Opoko  moja,  czemu zapominaszo mnie?  *\nCzemu  chodzę  smutny,  gnębiony przez wroga?\nKości  we mnie  się  kruszą,  *\ngdy  lżą  mnie  przeciwnicy,\nGdy  cały  dzień  mówią  do  mnie:  *\n„Gdzie jest  Bóg  twój?”\nCzemu  zgnębiona jesteś,  duszo  moja,  *\ni  czemu  trwożysz  się  we  mnie?\nUfaj  Bogu,  bo jeszcze  wysławiać  Go  będę:  *\nOn  zbawieniem  mojego  oblicza  i moim  Bogiem!\n",
+                    "doxologia": true
+                }
+            ],
+            "verse": [
+                "Wielka jest litość Twoja, Panie.",
+                "Obdarz mnie życiem według Twych wyroków."
+            ],
+            "readings": [
+                {
+                    "number": "I",
+                    "name": "Z  Pierwszego  Listu  św. Pawła Apostoła do  Koryntian",
+                    "sigla": "15, 12-34",
+                    "title": "Zmartwychwstanie  Chrystusa nadzieją  wiernych",
+                    "content": "Bracia!  Jeżeli  głosi  się,  że  Chrystus  zmartwychwstał, to  dlaczego  twierdzą  niektórzy  spośród  was,  że  nie  ma zmartwychwstania?  Jeśli  nie  ma  zmartwychwstania,  to i Chrystus nie zmartwychwstał. A jeśli Chrystus nie zmartwychwstał,  daremne  jest  nasze  nauczanie,  próżna  jest także  wasza  wiara.  Okazuje  się  bowiem,  żeśmy  byli  fałszywymi  świadkami  Boga,  skoro  umarli  nie  zmartwychwstają,  przeciwko  Bogu  świadczyliśmy,  że  z  martwych wskrzesił Chrystusa.  Skoro  umarli  nie zmartwychwstają, to  i  Chrystus  nie  zmartwychwstał.  A jeżeli  Chrystus  nie zmartwychwstał,  daremna  jest  wasza  wiara  i  aż  dotąd pozostajecie w swoich grzechach. Tak więc i ci, co pomarli  w  Chrystusie,  poszli  na  zatracenie.  Jeżeli  tylko  w  tym życiu w Chrystusie nadzieję pokładamy, jesteśmy bardziej od  wszystkich  ludzi  godni  politowania.\nTymczasem  jednak  Chrystus  zmartwychwstał  jako pierwszy  spośród  tych,  co  pomarli.  Ponieważ  bowiem przez  człowieka  przyszła  śmierć,  przez  Człowieka  też dokona  się  zmartwychwstanie.  I jak  w  Adamie  wszyscy umierają,  tak  też  w  Chrystusie  wszyscy  będą  ożywieni, lecz  każdy  według  własnej  kolejności.  Chrystus  jako pierwszy, potem ci, co należą do Chrystusa, w czasie Jego przyjścia.  Wreszcie  nastąpi  koniec,  gdy  przekaże  królowanie  Bogu  i  Ojcu  i  gdy  pokona  wszelką  Zwierzchność, Władzę  i  Moc.\nTrzeba bowiem, ażeby królował, aż położy wszystkich nieprzyjaciół pod swoje stopy. Jako ostatni wróg zostanie pokonana  śmierć.  Wszystko  bowiem  rzucił  pod  stopy Jego.  Kiedy  się  mówi,  że  wszystko jest  poddane,  znaczy to,  że  z  wyjątkiem  Tego,  który  Mu  wszystko  poddał. A  gdy już  wszystko  zostanie  Mu  poddane,  wtedy  i  sam Syn  zostanie  poddany  Temu,  który  Synowi  poddał wszystko,  aby  Bóg  był  wszystkim  we  wszystkich.\nBo  inaczej  czegóż  dokonają  ci,  co  przyjmują  chrzest za zmarłych? Jeżeli  umarli w ogóle nie zmartwychwstają, to  czemuż  za  nich  chrzest  przyjmują?  Po  co  też  i  my wystawiamy  się  na  niebezpieczeństwo  każdej  hours? Zapewniam was, przez chlubę, jaką mam z was w Jezusie Chrystusie,  Panu  naszym,  że  każdego  dnia  umieram. Jeżeli  tylko  ze  względu  na  ludzi  potykałem  się  w  Efezie z dzikimi  zwierzętami,  to cóż mi  stąd  za pożytek?  Skoro zmarli  nie zmartwychwstają,  to jedzmy i  pijmy,  bo jutropomrzemy. Nie łudźcie się! „Wskutek złych rozmów psują się dobre obyczaje”. Ocknijcie się naprawdę i przestańcie  grzeszyć!  Są  bowiem  wśród  was  tacy,  co  nie  uznają Boga.  Ku  waszemu  zawstydzeniu  to  mówię.",
+                    "responsory": {
+                        "por": "1  Kor  15,  25-26;  por.  Ap  20,  13.  14",
+                        "content": [
+                            "Trzeba,  aby  Chrystus  królował,  †   aż  Bóg  położy wszystkich nieprzyjaciół pod Jego stopy,  * A jako ostatni wróg  śmierć zostanie  pokonana.",
+                            "Śmierć i Otchłań wydadzą swoich zmarłych i wrzucone  będą  do jeziora  ognia.",
+                            "A jako."
+                        ]
+                    }
+                },
+                {
+                    "number": "I",
+                    "name": "Z  Pierwszego  Listu  św. Pawła Apostoła do  Koryntian",
+                    "sigla": "15,  35-57",
+                    "title": "Zmartwychwstanie umarłych  i przyjście  Pana",
+                    "content": "Bracia!  Powie  ktoś:  A jak  zmartwychwstają  umarli? W  jakim  ukazują  się  ciele?  O  niemądry!  Przecież  to, co  siejesz,  nie  ożyje,  jeżeli  wprzód  nie  obumrze.  To,  co zasiewasz,  nie  jest  od  razu  ciałem,  którym  ma  się  stać potem,  lecz  zwykłym  ziarnem,  na  przykład  pszenicznym lub  jakimś  innym.  Bóg  zaś  takie  daje  mu  ciało,  jakie zechciał; każdemu z nasion właściwe.  Nie wszystkie ciała są  takie  same:  inne  są  ciała  ludzi,  inne  zwierząt,  inne wreszcie ptaków i  ryb.  Są ciała  niebieskie i ziemskie,  lecz inne jest piękno ciał niebieskich, inne ziemskich. Inny jest blask  słońca,  a  inny  księżyca  i  gwiazd.  Jedna  gwiazda różni  się jasnością  od  drugiej.\nPodobnie rzecz się ma ze zmartwychwstaniem.  Zasiewa  się  zniszczalne,  powstaje  zaś  niezniszczalne;  sieje  się niechwalebne,  powstaje  chwalebne;  sieje  się  słabe,  powstaje mocne; zasiewa się ciało zmysłowe, powstaje ciało duchowe.  Jeżeli jest  ciało  zmysłowe,  powstanie  też  ciało duchowe.  Tak  też jest  napisane:  Stał  się  pierwszy  człowiek,  Adam,  duszą  żyjącą,  a  ostatni  Adam duchem  ożywiającym.  Nie było jednak  wpierw tego, co duchowe,  ale to, co ziemskie;  duchowe  było  potem.  Pierwszy człowiek z ziemi, ziemski, drugi Człowiek z nieba. Jaki ów ziemski, tacy  i  ziemscy; jaki  Ten  niebieski,  tacy i  niebiescy.  A jak nosiliśmy  obraz  ziemskiego  człowieka,  tak  też  nosić  będziemy  obraz  człowieka  niebieskiego.  Zapewniam  was, bracia, że ciało i krew nie mogą posiąść królestwa  Bożego i że to, co zniszczalne,  nie może mieć dziedzictwa w  tym, co  niezniszczalne.\nOto  ogłaszam  wam  tajemnicę:  Nie  wszyscy  pomrzemy,  lecz  wszyscy  będziemy  odmienieni.  W jednym  momencie,  w  mgnieniu  oka,  na  dźwięk  ostatniej  trąby,  zabrzmi bowiem trąba, umarli powstaną nienaruszeni, a my będziemy  odmienieni.  Trzeba,  aby  to,  co  zniszczalne, przyodziało  się  w  niezniszczalność,  a  to,  co  śmiertelne, przyodziało  się  w  nieśmiertelność.\nA  kiedy już  to,  co  zniszczalne,  przyodzieje  się  w  niezniszczalność,  a  to,  co  śmiertelne,  przyodzieje  się  w  nieśmiertelność,  wtedy  sprawdzą  się  słowa,  które  zostały napisane:  Zwycięstwo  pochłonęło  śmierć.  Gdzież  jest, o śmierci,  twoje zwycięstwo? Gdzież jest,  o  śmierci,  twój oścień?  Ościeniem  zaś  śmierci jest  grzech,  a  siłą  grzechu Prawo.  Bogu niech będą dzięki za to, że dał  nam  odnieść zwycięstwo  przez  Pana  naszego,  Jezusa  Chrystusa.",
+                    "responsory": {
+                        "por": "por.  Hi  19,  25.  26.  27",
+                        "content": [
+                            "Wierzę, że mój Odkupiciel żyje, † a w dniu ostatecznym ja  powstanę  z  ziemi.  *  I  w  ciele  moim  ujrzę  Boga, Zbawiciela  mego.",
+                            "To  właśnie  ja  Go  zobaczę,  a  nie  kto  inny;  moje oczy  oglądać  Go  będą.",
+                            "I w ciele."
+                        ]
+                    }
+                },
+                {
+                    "number": "I",
+                    "name": "Z  Drugiego  Listu  św. Pawła Apostoła do  Koryntian",
+                    "sigla": "4, 16 - 5, 10",
+                    "title": "Gdy rozpadnie się dom doczesnej pielgrzymki, będzie przygotowane  w niebie  wieczne mieszkanie",
+                    "content": "Bracia!  Chociaż  niszczeje  nasz  człowiek  zewnętrzny, to jednak  ten,  który jest wewnątrz, odnawia się z dnia  na dzień.  Niewielkie  bowiem  utrapienia  nasze  obecnego czasu  gotują  bezmiar  chwały  przyszłego  wieku  dla  nas, którzy się wpatrujemy nie w to, co widzialne, lecz w to, co niewidzialne.  To  bowiem,  co  widzialne,  przemija,  to  zaś, co  niewidzialne,  trwa  wiecznie.\nWiemy bowiem, że jeśli nawet zniszczeje nasz przybytek doczesnego  zamieszkania,  będziemy mieli  mieszkanie od  Boga,  dom  nie  ręką  uczyniony,  lecz  wiecznie  trwały w niebie. Tak przeto teraz wzdychamy, pragnąc przyodziać się  w  nasz  niebieski  przybytek,  o  ile  tylko  odziani,  a  nie nadzy  będziemy.  Dlatego  właśnie  udręczeni  wzdychamy, pozostając w tym przybytku, bo nie chcielibyśmy go utracić,  lecz  przywdziać  na  niego  nowe  odzienie,  aby  to,  co śmiertelne,  wchłonięte  zostało  przez  życie.  A  Bóg,  który nas  do  tego  przeznaczył,  dał  nam  Ducha  jako  zadatek.\nTak więc, mając tę  ufność,  wiemy, że jak długo pozostajemy w ciele, jesteśmy pielgrzymami, z daleka od Pana. Albowiem  według  wiary,  a  nie  dzięki  widzeniu  postępujemy. Mamy jednak nadzieję i chcielibyśmy raczej opuścić nasze ciało  i  stanąć w  obliczu  Pana.  Dlatego  też staramy się Jemu  podobać czy to gdy z  Nim, czy gdy z daleka  od Niego  jesteśmy.  Wszyscy  bowiem  musimy  stanąć  przed trybunałem  Chrystusa,  aby  każdy  otrzymał  zapłatę  za uczynki  dokonane  w ciele,  złe  lub  dobre.",
+                    "responsory": {
+                        "por": "por.  Ps  51,  11.  4",
+                        "content": [
+                            "Panie,  nie  osądzaj  mnie według  moich  czynów, †  nic  dobrego  nie  uczyniłem  przed  Twoim  obliczem,  / przeto  błagam  Twój  majestat:  *  Boże,  zniwecz wszystkie moje  przewinienia.",
+                            "Obmyj mnie zupełnie z mojej winy i oczyść mnie z grzechu  mojego,",
+                            "Boże"
+                        ]
+                    }
+                },
+                {
+                    "number": "II",
+                    "name": "Kazanie  św.  Anastazego  Antiocheńskiego,  biskupa",
+                    "sigla": "(Kazanie  5,  O  Zmartwychwstaniu  Chrystusa,  6-7,  9)",
+                    "title": "Chrystus przemieni ciało naszego poniżenia",
+                    "content": "„Chrystus  umarł  i  powrócił  do  życia,  aby  stać  się Panem  żywych  i  umarłych.”  Ale  „Bóg  nie  jest  Bogiem umarłych,  lecz  żywych”.  Zmarli  przeto,  nad  którymi rozciąga  swą  władzę  Zmartwychwstały,  nie  są już dłużej zmarłymi,  ale  żyjącymi.  Po  to  bowiem  panuje  nad  nimi Życie,  aby  nie  lękając  się  dłużej  śmierci,  żyli  podobnie jak  „Chrystus,  który  powstawszy z  martwych już  więcej nie  umiera”.\nTak  więc  wskrzeszeni  i  wybawieni  od  zepsucia  nie doznają  już  więcej  śmierci,  ale  staną  się  uczestnikami zmartwychwstania  Chrystusa,  jak  i  On  sam  był  uczestnikiem  ich  śmierci.Zstąpił bowiem na ziemię, w okowach pozostającą od wieków,  nie  dla  czego  innego,  ale  po  to,  „aby  bramy spiżowe wyłamać i skruszyć żelazne pęta”, aby życie nasze wyprowadzić ze stanu skażenia ku sobie, zamiast niewoli obdarowując  wolnością.\nJeżeli  wszakże  w  tym  dziele  zbawczym  nie  widać jeszcze  wykończenia  -   ludzie  bowiem  nadal  umierają i  w  proch  rozsypują  się  ich  ciała -  niechaj  nie  stanie  się to  przenigdy  powodem  wiarołomstwa.  Zadatek  bowiem wszystkich  obiecanych  dóbr  otrzymaliśmy  już  w  Tym, który jest Pierworodnym pośród  nas.  Przez Niego zostaliśmy wyniesieni  ku  niebu i  zasiadamy  z Tym,  który  nas zabrał  ze  sobą  na  wysokości,  jak  to  święty  Paweł  na jednym  miejscu  powiada:  „Wskrzesił  nas  wraz  z  Nimi  posadził na  niebiosach  w  Chrystusie  Jezusie”.\nDopełnienia zaś dostąpimy,  gdy nadejdzie wyznaczony przez Ojca czas,  kiedy pozbędziemy się naszej  niedojrzałości  i  dojdziemy  do  stanu  „człowieka  doskonałego”.Zechciał bowiem Ojciec wieków, aby ofiarowany przezeń dar był  trwały,  a  nie został zarzucony  nawrotem  niedojrzałości.\nŻe zaś Ciało Pana powstało z martwych jako duchowe, nie potrzebujemy wam mówić, skoro i Paweł powiada w  tej  sprawie:  „Sieje  się ciało zmysłowe,  wyrasta duchowe”, to jest przemienione na wzór chwalebnego przemienienia Chrystusa, który jako Wódz i Przewodnik podąża na  przedzie.  Apostoł  powiada  zatem  -   wiedział  o  tym dobrze  -   iż  tak  stanie  się  z  całym  rodzajem  ludzkim, dzięki Chrystusowi, który „przemieni nasze ciało poniżone na podobne do swego uwielbionego ciała”. Jeśli przeto przemienienie  jest  przyjęciem  ciała  duchowego,  to  zaś podobne jest  do  uwielbionego  Ciała  Chrystusa,  a  Chrystus  zmartwychwstał  w ciele  duchowym,  zatem  owo  duchowe nie jest  innym, jak  tylko  „zasianym  w skazitelności”,  które jednak  zostało  przemienione na ciało chwały. \nA jak  Chrystus  doprowadził do  Ojca pierwociny  naszej  natury,  tak  też  doprowadzi  kiedyś  całą  ludzkość zgodnie  ze  słowami  obietnicy:  „Gdy  będę  wywyższony, wszystkich  pociągnę  do  siebie”.",
+                    "responsory": {
+                        "por": "J  5,  28-29;  1  Kor  15,  52",
+                        "content": [
+                            "Wszyscy,  którzy  spoczywają  w  grobach,  †  usłyszą głos Syna Bożego; * Ci, którzy pełnili dobre czyny, pójdą na zmartwychwstanie życia; / ci zaś, co  pełnili złe czyny, na  zmartwychwstanie  potępienia.",
+                            "W jednym momencie, w mgnieniu oka,  na dźwięk ostatniej  trąby  powstaną  umarli. ",
+                            "Ci,  którzy  pełnili."
+                        ]
+                    }
+                },
+                {
+                    "number": "II",
+                    "name": "Kazanie  św.  Anastazego  Antiocheńskiego,  biskupa",
+                    "sigla": "(Kazanie  5,  O  Zmartwychwstaniu  Chrystusa,  6-7,  9)",
+                    "title": "Chrystus przemieni ciało naszego poniżenia",
+                    "content": "„Chrystus  umarł  i  powrócił  do  życia,  aby  stać  się Panem  żywych  i  umarłych.”  Ale  „Bóg  nie  jest  Bogiem umarłych,  lecz  żywych”.  Zmarli  przeto,  nad  którymi rozciąga  swą  władzę  Zmartwychwstały,  nie  są już dłużej zmarłymi,  ale  żyjącymi.  Po  to  bowiem  panuje  nad  nimi Życie,  aby  nie  lękając  się  dłużej  śmierci,  żyli  podobnie jak  „Chrystus,  który  powstawszy z  martwych już  więcej nie  umiera”.\nTak  więc  wskrzeszeni  i  wybawieni  od  zepsucia  nie doznają  już  więcej  śmierci,  ale  staną  się  uczestnikami zmartwychwstania  Chrystusa,  jak  i  On  sam  był  uczestnikiem  ich  śmierci.Zstąpił bowiem na ziemię, w okowach pozostającą od wieków,  nie  dla  czego  innego,  ale  po  to,  „aby  bramy spiżowe wyłamać i skruszyć żelazne pęta”, aby życie nasze wyprowadzić ze stanu skażenia ku sobie, zamiast niewoli obdarowując  wolnością.\nJeżeli  wszakże  w  tym  dziele  zbawczym  nie  widać jeszcze  wykończenia  -   ludzie  bowiem  nadal  umierają i  w  proch  rozsypują  się  ich  ciała -  niechaj  nie  stanie  się to  przenigdy  powodem  wiarołomstwa.  Zadatek  bowiem wszystkich  obiecanych  dóbr  otrzymaliśmy  już  w  Tym, który jest Pierworodnym pośród  nas.  Przez Niego zostaliśmy wyniesieni  ku  niebu i  zasiadamy  z Tym,  który  nas zabrał  ze  sobą  na  wysokości,  jak  to  święty  Paweł  na jednym  miejscu  powiada:  „Wskrzesił  nas  wraz  z  Nimi  posadził na  niebiosach  w  Chrystusie  Jezusie”.\nDopełnienia zaś dostąpimy,  gdy nadejdzie wyznaczony przez Ojca czas,  kiedy pozbędziemy się naszej  niedojrzałości  i  dojdziemy  do  stanu  „człowieka  doskonałego”.Zechciał bowiem Ojciec wieków, aby ofiarowany przezeń dar był  trwały,  a  nie został zarzucony  nawrotem  niedojrzałości.\nŻe zaś Ciało Pana powstało z martwych jako duchowe, nie potrzebujemy wam mówić, skoro i Paweł powiada w  tej  sprawie:  „Sieje  się ciało zmysłowe,  wyrasta duchowe”, to jest przemienione na wzór chwalebnego przemienienia Chrystusa, który jako Wódz i Przewodnik podąża na  przedzie.  Apostoł  powiada  zatem  -   wiedział  o  tym dobrze  -   iż  tak  stanie  się  z  całym  rodzajem  ludzkim, dzięki Chrystusowi, który „przemieni nasze ciało poniżone na podobne do swego uwielbionego ciała”. Jeśli przeto przemienienie  jest  przyjęciem  ciała  duchowego,  to  zaś podobne jest  do  uwielbionego  Ciała  Chrystusa,  a  Chrystus  zmartwychwstał  w ciele  duchowym,  zatem  owo  duchowe nie jest  innym, jak  tylko  „zasianym  w skazitelności”,  które jednak  zostało  przemienione na ciało chwały. \nA jak  Chrystus  doprowadził do  Ojca pierwociny  naszej  natury,  tak  też  doprowadzi  kiedyś  całą  ludzkość zgodnie  ze  słowami  obietnicy:  „Gdy  będę  wywyższony, wszystkich  pociągnę  do  siebie”.",
+                    "responsory": {
+                        "por": "J  5,  28-29;  1  Kor  15,  52",
+                        "content": [
+                            "Wszyscy,  którzy  spoczywają  w  grobach,  †  usłyszą głos Syna Bożego; * Ci, którzy pełnili dobre czyny, pójdą na zmartwychwstanie życia; / ci zaś, co  pełnili złe czyny, na  zmartwychwstanie  potępienia.",
+                            "W jednym momencie, w mgnieniu oka,  na dźwięk ostatniej  trąby  powstaną  umarli. ",
+                            "Ci,  którzy  pełnili."
+                        ]
+                    }
+                },
+                {
+                    "number": "II",
+                    "name": "Z  listów  św.  Brauliona,  biskupa  Saragossy",
+                    "sigla": "(List 19)",
+                    "title": "Zmartwychwstały Chrystus nadzieją wszystkich wierzących",
+                    "content": "Chrystus,  nadzieja  wszystkich  wiernych,  nazywa  odchodzących  z  tego  świata  pogrążonymi  we  śnie,  nie  zaś umarłymi;  mówi  oto:  „Łazarz,  przyjaciel  nasz,  śpi”.\nTakże i święty Paweł nie chce, abyśmy się smucili z powodu  tych,  którzy  zasnęli.  Jeśli  przeto  wiara  uczy,  iż wszyscy  wierzący  w  Chrystusa  nie  umrą  na  wieki,  najej podstawie wiemy, iż ani On nie umarł, ani my nie umrzemy.  Sam  bowiem  Pan  na  znak  i  na  głos archanioła  oraz na  dźwięk  trąby  Bożej  zstąpi  z  nieba,  a  umarli  w  Nim, zmartwychwstaną.\nNiechaj  więc  podniesie  nas  na  duchu  nadzieja  zmartwychwstania, albowiem  tych, których tutaj tracimy, tam zobaczymy  na  nowo;  trzeba  nam  tylko  wierzyć  mocno w  Chrystusa,  to jest,  zachowywać Jego  przykazania. Jako  Wszechmogącemu  łatwiej  Mu  zbudzić  zmarłego,  niż nam  pogrążonego  we  śnie.  Ale  kiedy  tak  oto  rozprawiamy,  nie  wiadomo,  dlaczego  nam  samym  płyną  łzy, a  ducha  wiary  osłabia  uczucie  tęsknoty.  Pożałowania godny jest los człowieka, a bez Chrystusa wszystko, czym żyjemy,  daremne.\nO twarda i okrutna śmierci, która rodziny rozrywaz, przyjaciół  dzielisz!  Oto  złamana  już  twoja  potęga.  Oto Ten,  który  groził ci  wołaniem  Ozeasza:  „O  śmierci,  będę  twoją  śmiercią”,  strzaskał już  twoje  nienawistne jarzmo.  Dlatego wraz z Apostołem  urągamy:  „Gdzież jest,  o śmierci,  twoje  zwycięstwo;  gdzież  jest,  o  śmierci,  twój oścień”.\nTen  sam,  który  ciebie  pokonał,  nas  odkupił.  Drogie swe  życie  wydał  grzesznikom,  aby  grzeszników  uczynić drogimi.  Jakże  długo  i  wiele  można  by  przywoływać z  Pism  świętych  dla  wspólnego  pocieszenia.  Ale  niech nam  wystarczy  nadzieja  zmartwychwstania  i  spojrzenie ku Zbawicielowi, w którym, na mocy wiary, już uważamy siebie  za  zmartwychwstałych,  zgodnie  ze  słowami  Apo­stoła:  „Jeśli  bowiem  umarliśmy z Chrystusem, wierzymy, iż  razem  z  Nim  żyć  będziemy”.\nNie  należymy  bowiem  do  siebie,  ale  do  Tego,  który nas  odkupił.  Od  Jego  woli  winna  zawsze  zależeć  nasza wola. Dlatego na modlitwie mówimy: „Bądź wola Twoja”. Toteż  w  czasie  pogrzebowych  uroczystości  trzeba  nam mówić wraz z Hiobem:  „Pan dał,  Pan wziął, niech będzieimię Pańskie błogosławione”. Tak właśnie mówmy z Hiobem tutaj, abyśmy snadź nie różniąc się odeń w obecnym utrapieniu,  nie  różnili  się  także  od  niego  w  przyszłości.",
+                    "responsory": {
+                        "por": "1  Tes  4,  13-14;  Jr  22,  10",
+                        "content": [
+                            "Tymi,  którzy  umierają, †  nie smućcie się jak  wszyscy ci,  którzy nie mają  nadziei.  *  Jeśli  bowiem wierzymy, że  Jezus  istotnie  umarł  i  zmartwychwstał,  /  to  również tych,  którzy  umarli  w  Jezusie,  /  Bóg  wyprowadzi  razem z  Nim.",
+                            "Nie  płaczcie  nad  zmarłymi  i  nie  lamentujcie  nad nimi. ",
+                            "Jeśli  bowiem wierzymy"
+                        ]
+                    }
+                }
+            ],
+            "prayer": "Modlitwa jak w Jutrzni."
+        }
+    ]
+}
