@@ -2,6 +2,7 @@ import type { TPsalm } from "../types/Psalm.type";
 import Antiphon from "./Antiphon";
 import "../sass/Psalm.scss"
 
+
 interface InvitationPsalmProps {
     psalm: TPsalm,
     antiphon: string
@@ -11,11 +12,16 @@ const InvitationPsalm = ({ psalm, antiphon }: InvitationPsalmProps) => {
 
     const parts = psalm.psalm.split("\n\n");
 
+    const psalmVerse = psalm.verse as string;
+
     return (
         <div className="psalm">
-            <h1 className="psalm__title">{psalm.title}</h1>
-            <h2 className="psalm__subtitle">{psalm.subtitle}</h2>
-            <p className="psalm__verse">{psalm.verse}</p>
+            <h2 className="psalm__title">{psalm.title}</h2>
+            <h3 className="psalm__subtitle">{psalm.subtitle}</h3>
+            <p className="psalm__verse">
+                {psalmVerse.substring(0, psalmVerse.indexOf("("))}
+                <span className="no-italic">{psalmVerse.substring(psalmVerse.indexOf("("), psalmVerse.length)}</span>
+            </p>
 
             <Antiphon antiphon={antiphon} />
             {
