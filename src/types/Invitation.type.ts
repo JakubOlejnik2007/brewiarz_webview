@@ -1,4 +1,4 @@
-import type { Psalm } from "./Psalm.type";
+import type { TPsalm } from "./Psalm.type";
 
 export type Invitation = {
     name: "Wezwanie";
@@ -7,5 +7,5 @@ export type Invitation = {
 
 export type InvitationPsalms = {
     name: "Wezwanie";
-    psalms: Psalm[]
+    psalms: [TPsalm, TPsalm, TPsalm, TPsalm]
 }
