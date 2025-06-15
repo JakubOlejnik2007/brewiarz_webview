@@ -36,7 +36,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
@@ -45,7 +46,7 @@ h6 {
   width: fit-content;
 }
 
-.indentation {
+.indentation::first-letter {
   margin-left: 1.5rem;
 }
 
