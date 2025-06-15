@@ -1,0 +1,1 @@
+export type HoursNames = "I Nieszpory" | "Wezwanie" | "Godzina Czytań" | "Jutrznia" | "Modlitwa w ciągu dnia" | "Nieszpory" | "II Nieszpory" | "Kompleta"
