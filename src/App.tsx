@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import './sass/App.scss'
 import type { FullOffice } from './types/FullOffice.interface';
-import Invtitation from './hours/Invitation';
+import Invititation from './hours/Invitation';
+import OfficeOfReadings from './hours/OfficeOfReadings';
+import type { TInvitation } from './types/Invitation.type';
+import type { TOfficeOfReadings } from './types/OfficeOfReadings.type';
 
 function App() {
   const [fileContent, setFileContent] = useState<null | FullOffice>(null);
@@ -39,10 +42,8 @@ function App() {
       }
       </ul>
       <div className="hour-content">
-        {
-          fileContent && hour === 0 && <Invtitation antiphon={fileContent.hours[0].name === "Wezwanie" ? fileContent.hours[0].antiphon : ""} />
-
-        }
+        {fileContent && hour === 0 && <Invititation {...(fileContent.hours[0] as TInvitation)} />}
+        {fileContent && hour === 1 && <OfficeOfReadings {...(fileContent.hours[1] as TOfficeOfReadings)} />}
       </div>
     </main>
   )
