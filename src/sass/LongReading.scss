@@ -1,0 +1,33 @@
+.lr {
+    width: 50ch;
+
+    &__number {
+        color: var(--additional-text);
+    }
+
+    &__heading {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    &__sigla {
+        text-align: right;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        color: var(--additional-text);
+    }
+
+    &__heading_sigla {
+        display: block;
+
+        .lr__sigla {
+            text-align: center;
+            display: block;
+        }
+    }
+
+
+
+
+}
