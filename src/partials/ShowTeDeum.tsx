@@ -7,7 +7,7 @@ const ShowTeDeum = ({ text }: ShowTeDeumProps) => {
     const textLines = text.split("\n")
 
     return (
-        <p className="ofr__TeDeum">
+        <div className="ofr__TeDeum">
             {
                 textLines.map((line, idx) => {
 
@@ -28,8 +28,7 @@ const ShowTeDeum = ({ text }: ShowTeDeumProps) => {
 
 
                     const element = <>
-                        <span className={classes.join(" ")}>{line}</span>
-                        <br />
+                        <div className={classes.join(" ")}>{line}</div>
                     </>
 
                     counter++;
@@ -37,7 +36,7 @@ const ShowTeDeum = ({ text }: ShowTeDeumProps) => {
                     return element;
                 })
             }
-        </p>
+        </div>
     )
 }
 
