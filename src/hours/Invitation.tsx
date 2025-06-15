@@ -22,7 +22,7 @@ const Invititation = ({ antiphon, prefferedPsalm = 1 }: InvtitationProps) => {
 
     return (
         <section className="invitation">
-            <h1 className="invitation__heading">Wezwanie</h1>
+            <h2 className="invitation__heading">Wezwanie</h2>
 
             <p className="invitation__introduction">
                 Jeśli psalm Wezwania ze swoją antyfoną ma poprzedzać Jutrznię, można go opuścić ze słusznej przyczyny.

@@ -8,7 +8,7 @@ import type { TOfficeOfReadings } from './types/OfficeOfReadings.type';
 
 function App() {
   const [fileContent, setFileContent] = useState<null | FullOffice>(null);
-  const [hour, setHour] = useState(0);
+  const [hour, setHour] = useState(1);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -36,6 +36,7 @@ function App() {
 
   return (
     <main>
+      <h1>{fileContent?.name}</h1>
       <input type="file" accept=".json" onChange={handleFileChange} />
       <ul>{
         fileContent && fileContent.hours.map((hour, idx) => <li><button onClick={e => setHour(idx)}>{hour.name}</button></li>)

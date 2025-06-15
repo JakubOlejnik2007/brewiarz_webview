@@ -16,8 +16,8 @@ const InvitationPsalm = ({ psalm, antiphon }: InvitationPsalmProps) => {
 
     return (
         <div className="psalm">
-            <h2 className="psalm__title">{psalm.title}</h2>
-            <h3 className="psalm__subtitle">{psalm.subtitle}</h3>
+            <h3 className="psalm__title">{psalm.title}</h3>
+            <h4 className="psalm__subtitle">{psalm.subtitle}</h4>
             <p className="psalm__verse">
                 {psalmVerse.substring(0, psalmVerse.indexOf("("))}
                 <span className="no-italic">{psalmVerse.substring(psalmVerse.indexOf("("), psalmVerse.length)}</span>
