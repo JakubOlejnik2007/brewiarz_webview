@@ -5,14 +5,22 @@ interface AntiphonProps {
 
 const Antiphon = ({ antiphon, count }: AntiphonProps) => {
     return (
-        <p>
+        <div className="psalm__antiphon indentation">
             <span className="additional">
-                {!count ? "Ant." : `${count} ant.`}
-            </span> {antiphon.split("/")[0]} <span className="additional">
-                /
-            </span> {antiphon.split("/")[1]}
-        </p>
+                {!count ? "Ant. " : `${count} ant. `}
+            </span>
+            {
+                antiphon.split(/([/*])/).map((part, idx) =>
+                    part === '/' || part === '*' ? (
+                        <span className="additional">{part}</span>
+                    ) : (
+                        <span>{part}</span>
+                    )
+                )
+            }
+        </div>
     )
 }
+
 
 export default Antiphon
