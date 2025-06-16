@@ -1,4 +1,4 @@
-import type { LongReading } from "./LongReading.type"
+import type { TLongReading } from "./LongReading.type"
 import type { TPsalm } from "./Psalm.type"
 
 export type TOfficeOfReadings = {
@@ -7,6 +7,6 @@ export type TOfficeOfReadings = {
     hymn: string[],
     psalmodia: [TPsalm, TPsalm, TPsalm],
     verse: string[],
-    readings: [LongReading, LongReading],
+    readings: TLongReading[],
     prayer: string
 }
