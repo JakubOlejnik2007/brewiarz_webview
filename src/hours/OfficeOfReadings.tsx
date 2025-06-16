@@ -4,10 +4,33 @@ import ShowTeDeum from "../partials/ShowTeDeum";
 import type { TOfficeOfReadings } from "../types/OfficeOfReadings.type";
 import Psalm from "../partials/Psalm";
 import LongReading from "../partials/LongReading";
+import { useState } from "react";
 
 
 
 const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props }: TOfficeOfReadings) => {
+
+    const [selectedReadings, setSelectedReadings] = useState([0, 0, 0, 0]);
+
+    const updateReading = (index: number, value: number) => {
+        setSelectedReadings(prev => {
+            const updated = [...prev];
+            updated[index] = value;
+            return updated;
+        });
+    }
+
+
+    const numeration = ["I", "II", "III", "IV"];
+
+    const readingFiltered = []
+
+    for (let i = 0; i < 4; i++) {
+        let reading_tmp = readings.filter(reading => reading.number === numeration[i])
+        if (reading_tmp.length === 0) continue;
+        readingFiltered.push(reading_tmp)
+        console.log(readingFiltered)
+    }
 
     return (
         <section className="ofr">
@@ -46,7 +69,27 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
             </p>
 
             {
-                readings.map((reading) => <LongReading {...reading} />)
+                readingFiltered.map((readingGroup, readingGroupIdx) => {
+
+                    const length = readingGroup.length
+
+                    return (
+                        <>
+                            {length > 0 ?
+                                <>
+                                    <ol className="lr__switch-reading">
+                                        {Array.from({ length }, (_, i) => (
+                                            <li className={selectedReadings[readingGroupIdx] === i ? "active" : ""} key={i} onClick={() => updateReading(readingGroupIdx, i)}>{numeration[i]}</li>
+                                        ))}
+                                    </ol>
+                                </>
+                                : <></>}
+
+                            <LongReading {...readingGroup[selectedReadings[readingGroupIdx]]} />
+
+                        </>
+                    )
+                })
             }
 
         </section >
