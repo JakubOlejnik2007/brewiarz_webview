@@ -7,7 +7,6 @@ const LongReading = ({ number, name, title, sigla, content, ...props }: TLongRea
 
     return (
         <div className="lr">
-            <p className="lr__number"> {number} Czytanie</p>
             <div className={`lr__heading ${isHagio ? "lr__heading_sigla" : ""}`}>
                 <p className="lr__name">{name}</p>
                 <p className={`lr__sigla ${isHagio ? "lr__sigla--hagio" : ""}`}>{sigla}</p>

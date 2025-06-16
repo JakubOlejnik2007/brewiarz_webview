@@ -2,10 +2,6 @@
     max-width: 60ch;
     margin: 0 auto;
 
-    &__number {
-        color: var(--additional-text);
-    }
-
     &__heading {
         display: grid;
         grid-template-columns: 3fr 1fr;

@@ -77,6 +77,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
                         <>
                             {length > 0 ?
                                 <>
+                                    <h3 className="ofr__reading-number">{numeration[readingGroupIdx]} Czytanie</h3>
                                     <ol className="lr__switch-reading">
                                         {Array.from({ length }, (_, i) => (
                                             <li className={selectedReadings[readingGroupIdx] === i ? "active" : ""} key={i} onClick={() => updateReading(readingGroupIdx, i)}>{numeration[i]}</li>

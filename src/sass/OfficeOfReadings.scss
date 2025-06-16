@@ -7,5 +7,8 @@
         max-width: 40ch;
     }
 
-    div {}
+    &__reading-number {
+        color: var(--additional-text)
+    }
+
 }
