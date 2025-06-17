@@ -5,6 +5,7 @@ import type { TOfficeOfReadings } from "../types/OfficeOfReadings.type";
 import Psalm from "../partials/Psalm";
 import LongReading from "../partials/LongReading";
 import { useState } from "react";
+import Psalmodia from "../partials/Psalmodia";
 
 
 
@@ -56,11 +57,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
             }
 
             {
-                psalmodia.map((psalm, idx) => {
-                    return (
-                        <Psalm {...psalm} count={(idx + 1) as 1 | 2 | 3} />
-                    )
-                })
+                <Psalmodia {...{ psalmodia }} />
             }
 
             <p className="ofr__introduction indentation__block">
