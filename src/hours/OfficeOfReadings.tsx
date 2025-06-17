@@ -7,6 +7,7 @@ import LongReading from "../partials/LongReading";
 import { useState } from "react";
 import Psalmodia from "../partials/Psalmodia";
 import numeration from "../utils/numeration";
+import Hymn from "../partials/Hymn";
 
 
 
@@ -49,10 +50,8 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
             <p className="ofr__introduction indentation additional">
                 Powyższe teksty opuszcza się, jeśli tę Godzinę poprzedza Wezwanie.
             </p>
-            {
-                isTeDeum ? <><ShowTeDeum text={OfficeOfReadingsData.TeDeum[0]} />
-                    <ShowTeDeum text={OfficeOfReadingsData.TeDeum[1]} /></> : ""
-            }
+
+            <Hymn hymns={hymn} />
 
             {
                 <Psalmodia {...{ psalmodia }} />
@@ -86,6 +85,12 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
                         </>
                     )
                 })
+            }
+
+
+            {
+                isTeDeum ? <><ShowTeDeum text={OfficeOfReadingsData.TeDeum[0]} />
+                    <ShowTeDeum text={OfficeOfReadingsData.TeDeum[1]} /></> : ""
             }
 
         </section >
