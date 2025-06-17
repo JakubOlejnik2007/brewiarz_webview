@@ -1,7 +1,8 @@
 import type { TLongReading } from "../types/LongReading.type"
 import "../sass/LongReading.scss"
+import Responsory from "./Responsory";
 
-const LongReading = ({ number, name, title, sigla, content, ...props }: TLongReading) => {
+const LongReading = ({ number, name, title, sigla, content, responsory, ...props }: TLongReading) => {
 
     const isHagio: boolean = sigla.startsWith("(");
 
@@ -20,6 +21,8 @@ const LongReading = ({ number, name, title, sigla, content, ...props }: TLongRea
                     return (<p className="indentation">{paragraph}</p>)
                 })
             }
+
+            <Responsory {...responsory} />
 
         </div>
     )
