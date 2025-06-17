@@ -1,8 +1,7 @@
-import OfficeOfReadingsData from "C:\\Users\\Jakub\\Desktop\\brewiarz\\Tom III\\const\\office_of_readings.json";
+import OfficeOfReadingsData from "../assets/office_of_readings.json";
 import "../sass/OfficeOfReadings.scss"
 import ShowTeDeum from "../partials/ShowTeDeum";
 import type { TOfficeOfReadings } from "../types/OfficeOfReadings.type";
-import Psalm from "../partials/Psalm";
 import LongReading from "../partials/LongReading";
 import { useState } from "react";
 import Psalmodia from "../partials/Psalmodia";

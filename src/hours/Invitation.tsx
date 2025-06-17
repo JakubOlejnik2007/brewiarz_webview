@@ -1,4 +1,4 @@
-import InvitationData from "C:\\Users\\Jakub\\Desktop\\brewiarz\\Tom III\\const\\invitation.json";
+import InvitationData from "../assets/invitation.json";
 import type { TInvitationPsalms } from "../types/Invitation.type";
 import InvitationPsalm from "../partials/InvitationPsalm";
 import "../sass/Invitation.scss"
