@@ -6,6 +6,7 @@ import Psalm from "../partials/Psalm";
 import LongReading from "../partials/LongReading";
 import { useState } from "react";
 import Psalmodia from "../partials/Psalmodia";
+import numeration from "../utils/numeration";
 
 
 
@@ -20,9 +21,6 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
             return updated;
         });
     }
-
-
-    const numeration = ["I", "II", "III", "IV"];
 
     const readingFiltered = []
 
