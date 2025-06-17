@@ -1,0 +1,14 @@
+.responsory {
+    &__heading {
+        color: var(--additional-text);
+    }
+
+    &__heading-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__por {
+        color: var(--additional-text);
+    }
+}
