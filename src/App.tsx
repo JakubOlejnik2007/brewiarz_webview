@@ -5,10 +5,12 @@ import Invititation from './hours/Invitation';
 import OfficeOfReadings from './hours/OfficeOfReadings';
 import type { TInvitation } from './types/Invitation.type';
 import type { TOfficeOfReadings } from './types/OfficeOfReadings.type';
+import type { TLaudes } from './types/Laudes.type';
+import Laudes from './hours/Laudes';
 
 function App() {
   const [fileContent, setFileContent] = useState<null | FullOffice>(null);
-  const [hour, setHour] = useState(1);
+  const [hour, setHour] = useState(2);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -43,8 +45,9 @@ function App() {
       }
       </ul>
       <div className="hour-content">
-        {fileContent && hour === 0 && <Invititation {...(fileContent.hours[0] as TInvitation)} />}
-        {fileContent && hour === 1 && <OfficeOfReadings {...(fileContent.hours[1] as TOfficeOfReadings)} />}
+        {fileContent && hour === 0 && <Invititation {...(fileContent.hours[0])} />}
+        {fileContent && hour === 1 && <OfficeOfReadings {...(fileContent.hours[1])} />}
+        {fileContent && hour === 2 && <Laudes {...(fileContent.hours[2])} />}
       </div>
     </main>
   )
