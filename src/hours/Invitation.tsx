@@ -1,5 +1,5 @@
-import InvitationData from "C:\\Users\\Jakub\\Desktop\\brewiarz\\Tom III\\const\\invitation.json";
-import type { InvitationPsalms } from "../types/Invitation.type";
+import InvitationData from "../assets/invitation.json";
+import type { TInvitationPsalms } from "../types/Invitation.type";
 import InvitationPsalm from "../partials/InvitationPsalm";
 import "../sass/Invitation.scss"
 import { useState } from "react";
@@ -12,17 +12,17 @@ interface InvtitationProps {
 
 }
 
-const Invtitation = ({ antiphon, prefferedPsalm = 1 }: InvtitationProps) => {
+const Invititation = ({ antiphon, prefferedPsalm = 1 }: InvtitationProps) => {
 
     const [psalmIndex, setPsalmIndex] = useState(prefferedPsalm);
 
     const psalms = ["Psalm 95", "Psalm 100", "Psalm 67", "Psalm 24"]
 
-    const invitation = InvitationData as InvitationPsalms;
+    const invitation = InvitationData as TInvitationPsalms;
 
     return (
         <section className="invitation">
-            <h1 className="invitation__heading">Wezwanie</h1>
+            <h2 className="invitation__heading">Wezwanie</h2>
 
             <p className="invitation__introduction">
                 Jeśli psalm Wezwania ze swoją antyfoną ma poprzedzać Jutrznię, można go opuścić ze słusznej przyczyny.
@@ -53,4 +53,4 @@ const Invtitation = ({ antiphon, prefferedPsalm = 1 }: InvtitationProps) => {
 
 
 
-export default Invtitation
+export default Invititation;

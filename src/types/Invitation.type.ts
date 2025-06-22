@@ -1,11 +1,11 @@
 import type { TPsalm } from "./Psalm.type";
 
-export type Invitation = {
+export type TInvitation = {
     name: "Wezwanie";
     antiphon: string;
 }
 
-export type InvitationPsalms = {
+export type TInvitationPsalms = {
     name: "Wezwanie";
     psalms: [TPsalm, TPsalm, TPsalm, TPsalm]
 }

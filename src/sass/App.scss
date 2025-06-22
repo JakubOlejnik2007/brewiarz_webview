@@ -2,7 +2,7 @@
   font-family: 'Times New Roman', serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 120%;
+  font-size: 110%;
   color: var(--text-color);
   background-color: var(--bg-color);
   text-align: justify;
@@ -36,13 +36,24 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
 .hour-content {
   margin: 0 auto;
   width: fit-content;
+}
+
+.indentation {
+  &__block {
+    margin-left: 1.5rem;
+  }
+
+  &::first-letter {
+    margin-left: 1.5rem;
+  }
 }
 
 @import 'Colors.scss';

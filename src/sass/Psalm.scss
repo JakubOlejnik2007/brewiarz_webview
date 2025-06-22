@@ -1,5 +1,5 @@
 .psalm {
-    display: inline-block;
+    display: block;
     text-align: center;
     margin: auto;
     text-align: left;
@@ -17,6 +17,7 @@
 
     &__numeration {
         color: var(--additional-text);
+        text-align: center;
     }
 
     &__verse {
@@ -28,5 +29,13 @@
 
     &__content {
         white-space: pre-line;
+    }
+
+    &__antiphon {
+        max-width: 60ch;
+    }
+
+    p {
+        margin: 20px;
     }
 }
