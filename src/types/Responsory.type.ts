@@ -1,4 +1,4 @@
 export type TResponsory = {
     por: string,
-    content: string[]
+    content: [string, string, string] | [string, string, string, string, string, string]
 }
