@@ -1,5 +1,5 @@
 .short-reading {
-    width: 60ch;
+    width: var(--fixed-width);
 
     &__heading {
         display: flex;

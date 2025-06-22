@@ -1,5 +1,5 @@
 .lr {
-    max-width: 60ch;
+    max-width: var(--fixed-width);
     margin: 0 auto;
 
     &__heading {
