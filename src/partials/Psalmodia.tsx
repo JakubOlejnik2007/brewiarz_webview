@@ -22,8 +22,10 @@ const Psalmodia = ({ psalmodia }: TPsalmodiaProps) => {
         <>
             {
                 psalmodia.map((psalms, idx) => {
+                    const length = psalms.length
+                    console.log(psalms)
                     return (
-                        <>{psalms.length > 0 ?
+                        <>{psalms.length > 1 ?
                             <>
                                 <ol className="lr__switch-reading">
                                     {Array.from({ length }, (_, i) => (
