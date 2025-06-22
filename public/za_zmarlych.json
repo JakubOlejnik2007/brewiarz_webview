@@ -9,9 +9,9 @@
             "name": "Godzina Czytań",
             "isTeDeum": false,
             "hymn": [
-                "1 Boże, jesteś ponad czasem,\nW Tobie tylko źródło życia\nWejrzyj na nas, ludzi grzesznych\nI podległych prawu śmierci.\n2 Śmierć ustanowiłeś karą\nDla człowieka upadłego,\nAby proch, co w proch powraca,\nPrzez nią mógł przebłagać Ciebie.\n3 Z Twojej woli jednak, Ojcze,\nWinno przetrwać tchnienie życia\nJako ziarno niezniszczalne,\nKtóre znakiem jest wieczności.\n4 W Tobie ufność pokładamy,\nŻe do życia nas przywrócisz,\nI wydźwignie nas ku Tobie\nChrystus, pierwszy zmartwychwstały.\n5 Wszystkich, co zasnęli w Tobie,\nWprowadź do królestwa swego,\nJezus bowiem dał im wiarę,\nA Najświętszy Duch namaścił. Amen.",
-                "Albo o jednym zmarłym:\n\n1 Zmiłuj się, Boże, nad naszym bratem,\nKtórego droga dobiegła kresu;\nDziś oto stoi przed Twoim tronem\nNa sąd czekając.\n2 Nie ma niczego na swą obronę\nPrócz krwi Chrystusa i Jego męki,\nKtóra przyniosła całemu światu\nObmycie z grzechów.\n3 Wspomnij, o Panie, że go stworzyłeś,\nBy stał się wiernym obrazem Twoim,\nDałeś mu życie i miłowałeś\nJak własne dziecko.\n4 Przeważ na szali sprawiedliwości\nPrzewinę ludzką cierpieniem Syna;\nOkaż swą litość i miłosierdzie\nZmarłemu bratu.\n5 Ty, który dajesz nadzieję wiernym\nPowstania z martwych ze Zbawicielem,\nBądź pochwalony przez śmierć i życie,\nNajlepszy Ojcze. Amen.",
-                "Albo o jednej zmarłej:\n\n1 Zmiłuj się, Boże, nad naszą siostrą,\nBo już jej droga dobiegła kresu;\nDziś oto stoi przed Twoim tronem\nNa sąd czekając.\n2 Nie ma niczego na swą obronę\nPrócz krwi Chrystusa i Jego męki,\nKtóra przyniosła całemu światu\nObmycie z grzechów.\n3 Wspomnij, o Panie, że ją stworzyłeś,\nBy wiernym była obrazem Twoim,\nDałeś jej życie i miłowałeś\nJak własne dziecko.\n4 Przeważ na szali sprawiedliwości\nPrzewinę ludzką cierpieniem Syna;\nOkaż swą litość i miłosierdzie\nTej zmarłej siostrze.\n5 Ty, który dajesz nadzieję wiernym\nPowstania z martwych ze Zbawicielem,\nBądź pochwalony przez śmierć i życie,\nNajlepszy Ojcze. Amen."
+                "1 Boże, jesteś ponad czasem,\nW Tobie tylko źródło życia\nWejrzyj na nas, ludzi grzesznych\nI podległych prawu śmierci.\n\n2 Śmierć ustanowiłeś karą\nDla człowieka upadłego,\nAby proch, co w proch powraca,\nPrzez nią mógł przebłagać Ciebie.\n\n3 Z Twojej woli jednak, Ojcze,\nWinno przetrwać tchnienie życia\nJako ziarno niezniszczalne,\nKtóre znakiem jest wieczności.\n\n4 W Tobie ufność pokładamy,\nŻe do życia nas przywrócisz,\nI wydźwignie nas ku Tobie\nChrystus, pierwszy zmartwychwstały.\n\n5 Wszystkich, co zasnęli w Tobie,\nWprowadź do królestwa swego,\nJezus bowiem dał im wiarę,\nA Najświętszy Duch namaścił. Amen.",
+                "\tAlbo o jednym zmarłym:\n\n1 Zmiłuj się, Boże, nad naszym bratem,\nKtórego droga dobiegła kresu;\nDziś oto stoi przed Twoim tronem\nNa sąd czekając.\n\n2 Nie ma niczego na swą obronę\nPrócz krwi Chrystusa i Jego męki,\nKtóra przyniosła całemu światu\nObmycie z grzechów.\n\n3 Wspomnij, o Panie, że go stworzyłeś,\nBy stał się wiernym obrazem Twoim,\nDałeś mu życie i miłowałeś\nJak własne dziecko.\n\n4 Przeważ na szali sprawiedliwości\nPrzewinę ludzką cierpieniem Syna;\nOkaż swą litość i miłosierdzie\nZmarłemu bratu.\n\n5 Ty, który dajesz nadzieję wiernym\nPowstania z martwych ze Zbawicielem,\nBądź pochwalony przez śmierć i życie,\nNajlepszy Ojcze. Amen.",
+                "\tAlbo o jednej zmarłej:\n\n1 Zmiłuj się, Boże, nad naszą siostrą,\nBo już jej droga dobiegła kresu;\nDziś oto stoi przed Twoim tronem\nNa sąd czekając.\n\n2 Nie ma niczego na swą obronę\nPrócz krwi Chrystusa i Jego męki,\nKtóra przyniosła całemu światu\nObmycie z grzechów.\n\n3 Wspomnij, o Panie, że ją stworzyłeś,\nBy wiernym była obrazem Twoim,\nDałeś jej życie i miłowałeś\nJak własne dziecko.\n\n4 Przeważ na szali sprawiedliwości\nPrzewinę ludzką cierpieniem Syna;\nOkaż swą litość i miłosierdzie\nTej zmarłej siostrze.\n\n5 Ty, który dajesz nadzieję wiernym\nPowstania z martwych ze Zbawicielem,\nBądź pochwalony przez śmierć i życie,\nNajlepszy Ojcze. Amen."
             ],
             "psalmodia": [
                 [
@@ -118,7 +118,7 @@
                     "name": "Z  listów  św.  Brauliona,  biskupa  Saragossy",
                     "sigla": "(List 19)",
                     "title": "Zmartwychwstały Chrystus nadzieją wszystkich wierzących",
-                    "content": "Chrystus,  nadzieja  wszystkich  wiernych,  nazywa  odchodzących  z  tego  świata  pogrążonymi  we  śnie,  nie  zaś umarłymi;  mówi  oto:  „Łazarz,  przyjaciel  nasz,  śpi”.\nTakże i święty Paweł nie chce, abyśmy się smucili z powodu  tych,  którzy  zasnęli.  Jeśli  przeto  wiara  uczy,  iż wszyscy  wierzący  w  Chrystusa  nie  umrą  na  wieki,  najej podstawie wiemy, iż ani On nie umarł, ani my nie umrzemy.  Sam  bowiem  Pan  na  znak  i  na  głos archanioła  oraz na  dźwięk  trąby  Bożej  zstąpi  z  nieba,  a  umarli  w  Nim, zmartwychwstaną.\nNiechaj  więc  podniesie  nas  na  duchu  nadzieja  zmartwychwstania, albowiem  tych, których tutaj tracimy, tam zobaczymy  na  nowo;  trzeba  nam  tylko  wierzyć  mocno w  Chrystusa,  to jest,  zachowywać Jego  przykazania. Jako  Wszechmogącemu  łatwiej  Mu  zbudzić  zmarłego,  niż nam  pogrążonego  we  śnie.  Ale  kiedy  tak  oto  rozprawiamy,  nie  wiadomo,  dlaczego  nam  samym  płyną  łzy, a  ducha  wiary  osłabia  uczucie  tęsknoty.  Pożałowania godny jest los człowieka, a bez Chrystusa wszystko, czym żyjemy,  daremne.\nO twarda i okrutna śmierci, która rodziny rozrywaz, przyjaciół  dzielisz!  Oto  złamana  już  twoja  potęga.  Oto Ten,  który  groził ci  wołaniem  Ozeasza:  „O  śmierci,  będę  twoją  śmiercią”,  strzaskał już  twoje  nienawistne jarzmo.  Dlatego wraz z Apostołem  urągamy:  „Gdzież jest,  o śmierci,  twoje  zwycięstwo;  gdzież  jest,  o  śmierci,  twój oścień”.\nTen  sam,  który  ciebie  pokonał,  nas  odkupił.  Drogie swe  życie  wydał  grzesznikom,  aby  grzeszników  uczynić drogimi.  Jakże  długo  i  wiele  można  by  przywoływać z  Pism  świętych  dla  wspólnego  pocieszenia.  Ale  niech nam  wystarczy  nadzieja  zmartwychwstania  i  spojrzenie ku Zbawicielowi, w którym, na mocy wiary, już uważamy siebie  za  zmartwychwstałych,  zgodnie  ze  słowami  Apo­stoła:  „Jeśli  bowiem  umarliśmy z Chrystusem, wierzymy, iż  razem  z  Nim  żyć  będziemy”.\nNie  należymy  bowiem  do  siebie,  ale  do  Tego,  który nas  odkupił.  Od  Jego  woli  winna  zawsze  zależeć  nasza wola. Dlatego na modlitwie mówimy: „Bądź wola Twoja”. Toteż  w  czasie  pogrzebowych  uroczystości  trzeba  nam mówić wraz z Hiobem:  „Pan dał,  Pan wziął, niech będzieimię Pańskie błogosławione”. Tak właśnie mówmy z Hiobem tutaj, abyśmy snadź nie różniąc się odeń w obecnym utrapieniu,  nie  różnili  się  także  od  niego  w  przyszłości.",
+                    "content": "Chrystus,  nadzieja  wszystkich  wiernych,  nazywa  odchodzących  z  tego  świata  pogrążonymi  we  śnie,  nie  zaś umarłymi;  mówi  oto:  „Łazarz,  przyjaciel  nasz,  śpi”.\nTakże i święty Paweł nie chce, abyśmy się smucili z powodu  tych,  którzy  zasnęli.  Jeśli  przeto  wiara  uczy,  iż wszyscy  wierzący  w  Chrystusa  nie  umrą  na  wieki,  najej podstawie wiemy, iż ani On nie umarł, ani my nie umrzemy.  Sam  bowiem  Pan  na  znak  i  na  głos archanioła  oraz na  dźwięk  trąby  Bożej  zstąpi  z  nieba,  a  umarli  w  Nim, zmartwychwstaną.\nNiechaj  więc  podniesie  nas  na  duchu  nadzieja  zmartwychwstania, Albowiem  tych, których tutaj tracimy, tam zobaczymy  na  nowo;  trzeba  nam  tylko  wierzyć  mocno w  Chrystusa,  to jest,  zachowywać Jego  przykazania. Jako  Wszechmogącemu  łatwiej  Mu  zbudzić  zmarłego,  niż nam  pogrążonego  we  śnie.  Ale  kiedy  tak  oto  rozprawiamy,  nie  wiadomo,  dlaczego  nam  samym  płyną  łzy, a  ducha  wiary  osłabia  uczucie  tęsknoty.  Pożałowania godny jest los człowieka, a bez Chrystusa wszystko, czym żyjemy,  daremne.\nO twarda i okrutna śmierci, która rodziny rozrywaz, przyjaciół  dzielisz!  Oto  złamana  już  twoja  potęga.  Oto Ten,  który  groził ci  wołaniem  Ozeasza:  „O  śmierci,  będę  twoją  śmiercią”,  strzaskał już  twoje  nienawistne jarzmo.  Dlatego wraz z Apostołem  urągamy:  „Gdzież jest,  o śmierci,  twoje  zwycięstwo;  gdzież  jest,  o  śmierci,  twój oścień”.\nTen  sam,  który  ciebie  pokonał,  nas  odkupił.  Drogie swe  życie  wydał  grzesznikom,  aby  grzeszników  uczynić drogimi.  Jakże  długo  i  wiele  można  by  przywoływać z  Pism  świętych  dla  wspólnego  pocieszenia.  Ale  niech nam  wystarczy  nadzieja  zmartwychwstania  i  spojrzenie ku Zbawicielowi, w którym, na mocy wiary, już uważamy siebie  za  zmartwychwstałych,  zgodnie  ze  słowami  Apo­stoła:  „Jeśli  bowiem  umarliśmy z Chrystusem, wierzymy, iż  razem  z  Nim  żyć  będziemy”.\nNie  należymy  bowiem  do  siebie,  ale  do  Tego,  który nas  odkupił.  Od  Jego  woli  winna  zawsze  zależeć  nasza wola. Dlatego na modlitwie mówimy: „Bądź wola Twoja”. Toteż  w  czasie  pogrzebowych  uroczystości  trzeba  nam mówić wraz z Hiobem:  „Pan dał,  Pan wziął, niech będzieimię Pańskie błogosławione”. Tak właśnie mówmy z Hiobem tutaj, abyśmy snadź nie różniąc się odeń w obecnym utrapieniu,  nie  różnili  się  także  od  niego  w  przyszłości.",
                     "responsory": {
                         "por": "1  Tes  4,  13-14;  Jr  22,  10",
                         "content": [
@@ -129,6 +129,86 @@
                     }
                 }
             ],
+            "prayer": "Modlitwa jak w Jutrzni."
+        },
+        {
+            "name": "Jutrznia",
+            "hymn": [
+                "1  Chryste,  nadziejo  zbawienia,\nŻycie  i  zmartwychpowstanie,\nDo  Ciebie  w  śmierci  godzinie\nWznosimy  serca  i  oczy.\n\n2  Wiesz,  czym  są  lęki  śmiertelne,\nZnasz  także  grozę  konania,\nBo  cichy,  głowę  skłoniwszy,\nOddałeś  Ojcu  swą  duszę.\n\n3  Wziąłeś  na  siebie z  miłości\nBoleść  i  smutek  człowieczy,\nA  wszystkich  z  Tobą  cierpiących,\nW  Ojcowskie  składasz  ramiona.\n\n4  Wisząc  przybity  do  krzyża,\nRęce  rozwarłeś  szeroko,\nBy  konających  w  udręce\nDo  rany  serca  przygarnąć.\n\n5  Ty  zwyciężyłeś  szatana,\nTyś  bramy  nieba  otworzył,\nWięc teraz  pociesz  nas,  Panie,\nI  życiem  obdarz  po  śmierci.\n\n6  Także  i  ci,  których  ciała\nŚpią już  w  bezmiernym  pokoju,\nNiech  w  Twoim  świetle  się  zbudzą,\nBy  Ciebie  wielbić  na  wieki.  Amen."
+            ],
+            "psalmodia": [
+                [
+                    {
+                        "antiphon": "Lata nasze przemijają jak  trawa, * a Ty,  Boże, trwasz  na  wieki.",
+                        "title": "Psalm  90,  1-16",
+                        "subtitle": null,
+                        "numeration": null,
+                        "verse": null,
+                        "psalm": "Panie,  Ty  dla  nas  byłeś  ucieczką,  *\nz  pokolenia  na  pokolenie.\nZanim  narodziły  się  góry,  †\nnim  powstał  świat  i  ziemia,  *\nod  wieku  po  wiek  Ty jesteś  Bogiem.\nObracasz  w  proch  człowieka  *\ni  mówisz:  „Wracajcie,  synowie  ludzcy”.\nBo  tysiąc  lat  w  Twoich  oczach  †\njest jak  wczorajszy  dzień,  który  minął,  *\nalbo  straż  nocna.\nPorywasz  ich,  stają  się  niby  sen  poranny,  *\njak  trawa,  która  rośnie:\nRankiem  zielona  i  kwitnąca,  *\nwieczorem  więdnie  i  usycha.\nZaprawdę,  Twój  gniew  nas  niszczy,  *\ntrwoży  nas  Twoje  oburzenie.\nPołożyłeś  przed  sobą  nasze  grzechy,  *\nnasze  skryte  winy  w  świetle  Twojego  oblicza.\nWszystkie  nasze  dni  mijają  w  Twoim  gniewie,  *\nnasze  lata  dobiegają  końca jak  westchnienie.\nMiarą  naszego  życia jest  lat  siedemdziesiąt,  *\nosiemdziesiąt,  gdy jesteśmy  mocni.\nA  większość z  nich  to  trud  i  marność,  *\nbo  szybko  mijają,  my  zaś  odlatujemy.\nKtóż  może  poznać  siłę  Twego  gniewu  *\ni  kto  znieść  zdoła  moc  Twego  oburzenia?\nNaucz  nas  liczyć dni  nasze,  *\nbyśmy  zdobyli  mądrość  serca.\nPowróć,  Panie, jak  długo  będziesz zwlekał?  *\nBądź  litościwy  dla  sług  Twoich.\nNasyć  nas  o  świcie  swoją  łaską,  *\nabyśmy  przez  wszystkie  dni  nasze  mogli  się  radować i  cieszyć.\nDaj  radość  w zamian  za  dni  Twego  ucisku,  *\nza  lata,  w  których  zaznaliśmy  niedoli.\nNiech  sługom  Twoim  ukaże  się  Twe  dzieło,  *\na  Twoja  chwała  nad  ich  synami.",
+                        "doxologia": true
+                    }
+                ],
+                [
+                    {
+                        "antiphon": "Od  śmierci  wiecznej  *  zachowaj  mnie,  Panie.",
+                        "title": "Pieśń  Iz  38,  10-14.  17.  19b-20",
+                        "subtitle": null,
+                        "numeration": null,
+                        "verse": null,
+                        "psalm": "Rzekłem:  W  połowie  dni  moich  *\nodejść  muszę;\nW  bramach  Otchłani  mnie  opuści  *\nlat  moich  reszta.\nMówiłem:  Nie  ujrzę już  Boga  *\nna  ziemi  żyjących,\nNie zobaczę już  nikogo  *\nspośród  mieszkańców  tego  świata.\nRozbiorą  moje  mieszkanie  i  przeniosą  ode  mnie  *\njak  namiot  pasterski.\nJak  tkacz  zwinąłem  me  życie,  †\na  Pan jego  nić  przeciął.  *\nOd  świtu  do  nocy  kres  mi  położysz.\nKrzyczę  do  rana,  *\nOn jak  lew  miażdży  wszystkie  me  kości.\nKwilę jak  pisklę jaskółcze,  *\nwzdycham jak  gołębica.\nZmęczone  są  me  oczy  od  patrzenia  w  górę,  *\nPanie,  stań  przy  mnie,  bo jestem  w  ucisku.\nI  oto  ustrzegłeś  moją  duszę  *\nod  czeluści  zagłady,\nGdyż  odrzuciłeś  za  siebie  *\nwszystkie  moje  grzechy.\nOjciec  głosi  dzieciom  wierność  Twoją.  *\nPan  mi  przychodzi  z  pomocą,\nWięc  grać  Mu  będziemy  pieśni  na  strunach  †\nprzez  wszystkie  dni  naszego  życia  *\nw  świątyni  Pańskiej.",
+                        "doxologia": true
+                    }
+                ],
+                [
+                    {
+                        "antiphon": "Będę  chwalił  Pana  *  do  końca  mego  życia.",
+                        "title": "Psalm  146",
+                        "subtitle": null,
+                        "numeration": null,
+                        "verse": null,
+                        "psalm": "Chwal,  duszo  moja,  Pana;  †\nbędę  chwalił  Pana  do  końca  mego  życia,  *\nbędę  śpiewał  mojemu  Bogu,  dopóki  istnieję.\nNie  pokładajcie  ufności  w  książętach  *\nani  w  człowieku,  który  zbawić  nie  może.\nKiedy  duch  go  opuści,  znów  w  proch  się  obraca  *\ni  przepadają  wszystkie jego  zamiary.\nSzczęśliwy  ten,  kogo  wspiera  Bóg Jakuba,  *\nkto  pokłada  nadzieję  w  Panu  Bogu.\nOn  stworzył  niebo  i  ziemię,  i  morze  *\nze  wszystkim,  co  w  nich  istnieje.\nOn  wiary  dochowuje  na  wieki,  *\nuciśnionym  sprawiedliwość  wymierza,\nChlebem  karmi  głodnych,  *\nwypuszcza  na  wolność  uwięzionych.\nPan  przywraca  wzrok  ociemniałym,  †\nPan  dźwiga  poniżonych,  *\nPan  kocha  sprawiedliwych.\nPan  strzeże  przybyszów,  †\nochrania  sierotę  i  wdowę,  *\nlecz  występnych  kieruje  na  bezdroża.\nPan  króluje  na  wieki,  *\nBóg  twój,  Syjonie,  przez  pokolenia.",
+                        "doxologia": true
+                    },
+                    {
+                        "antiphon": "Wszystko,  co  żyje,  *  niech  chwali  Pana.",
+                        "title": "Psalm  150",
+                        "subtitle": null,
+                        "numeration": null,
+                        "verse": null,
+                        "psalm": "Chwalcie  Boga  w  Jego  świątyni,  *\nchwalcie  na  ogromnym  Jego  nieboskłonie.\nChwalcie  Go  za  potężne  Jego  dzieła,  *\nchwalcie  za  niezmierzoną  wielkość  Jego.\nChwalcie  Go  dźwiękiem  rogu,  *\nchwalcie  na  harfie  i  cytrze.\nChwalcie  Go  bębnem  i  tańcem,  *\nchwalcie  na  strunach  i  flecie.\nChwalcie  Go  na  dźwięcznych  cymbałach,  †\nchwalcie  na  cymbałach  brzęczących.  *\nWszystko,  co  żyje,  niech  chwali  Pana!",
+                        "doxologia": true
+                    }
+                ]
+            ],
+            "Czytanie": {
+                "sigla": "1  Tes  4,  14",
+                "content": "Jeśli  wierzymy,  że Jezus  istotnie  umarł  i zmartwychwstał,  to  również  tych,  którzy  umarli  w  Jezusie,  Bóg razem z  Nim  wskrzesi."
+            },
+            "responsory": {
+                "por": "",
+                "content": [
+                    "Będę  Cię  wysławiał,  Panie,  *  Bo  przyjąłeś  mnie do  siebie",
+                    "Będę.",
+                    "Zamieniłeś  mój  płacz  w  wesele.",
+                    "Bo przyjąłeś.",
+                    "Chwała Ojcu.",
+                    "Będę."
+                ]
+            },
+            "antiphon": [
+                " Ja jestem zmartwychwstanie  i  życie,  *  kto  wierzy  we  Mnie,  choćby  i  umarł,  żyć będzie, /  a  każdy,  kto żyje i  wierzy we  Mnie, /  nie umrze na  wieki."
+            ],
+            "intercessions": {
+                "introduction": "Pokornie  błagajmy  Boga,  Ojca  wszechmogącego, który wskrzesił  z  martwych  Jezusa  Chrystusa  i  przywróci do  życia  nasze  śmiertelne  ciała,  i  wołajmy  do  Niego: ",
+                "response": "Obdarz nas życiem  w Jezusie  Chrystusie",
+                "intercessions": [
+                    "Ojcze  święty,  razem  z  Twoim  Synem  zostaliśmy  przez chrzest  zanurzeni  w  śmierci  i  wskrzeszeni  do  życia, - spraw,  abyśmy  postępowali  drogą  nowego  życia i  także  po  śmierci  mogli  żyć  z  Chrystusem.",
+                    "Dobry  Ojcze,  Ty  nam  dałeś  do  spożywania  chleb  życia, który  z  nieba  zstąpił, - spraw,  abyśmy  mieli  w sobie życie wieczne  i  powstali z  martwych  w  dniu  ostatecznym.",
+                    "Panie,  Ty  posłałeś  anioła,  aby  umacniał  Twego  Syna podczas  agonii  w  Ogrójcu, spraw, - niech  nadzieja,  którą  pokładamy  w  Tobie, przyniesie  nam  pociechę  w  chwili  śmierci.",
+                    "Panie,  Ty  wyrwałeś  trzech  młodzieńców  spośród  ognia, - wybaw  dusze  zmarłych  od  kar,  jakie  cierpią  za grzechy.",
+                    "Boże  żyjących  i  umarłych,  Ty  wskrzesiłeś  z  martwych Jezusa, - obudź  zmarłych  do  życia  i  nas  razem  z  nimi  wprowadź  do  wiecznej  chwały."
+                ]
+            },
             "prayer": "Modlitwa jak w Jutrzni."
         }
     ]

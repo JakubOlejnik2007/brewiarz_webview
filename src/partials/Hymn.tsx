@@ -1,6 +1,7 @@
 import { useState } from "react";
 import numeration from "../utils/numeration";
 import "../sass/Hymn.scss"
+import capitalizeFirstLetter from "../utils/capitalizeFirstLetter";
 interface THymnProps {
     hymns: string[]
 }
@@ -14,10 +15,18 @@ const Hymn = ({ hymns }: THymnProps) => {
             <ol className="hymn__switch-hymn">
                 {
                     hymns.map((hymn, idx) => {
+
+                        const firstLine = hymn.split("\n")[0]
+                        console.log(firstLine.split(":")[0].split("Albo")[1])
+                        let firstLineSimple = firstLine.split(":")[0].trim()
+                        console.log(firstLineSimple.indexOf("Albo"))
+                        firstLineSimple = firstLineSimple.indexOf("Albo") === 0 ? firstLineSimple.split("Albo")[1].trim() : firstLineSimple;
+                        firstLineSimple = capitalizeFirstLetter(firstLineSimple)
+
                         return (
                             <li className={selectedHymn === idx ? "active" : ""}
                                 onClick={() => setSelectedHymn(idx)}
-                            >{numeration[idx]}</li>
+                            >{numeration[idx]} {firstLine.indexOf("\t") === 0 ? <><br />{firstLineSimple}</> : ""}</li>
                         )
                     })
                 }
@@ -27,7 +36,7 @@ const Hymn = ({ hymns }: THymnProps) => {
                 {
                     hymns[selectedHymn].split("\n\n").map(hymnPart => {
                         return (<>
-                            <p className={`hymn__part ${hymnPart.startsWith("Albo") ? "additional" : ""}`}>{hymnPart.split("\n").map((verse, idx) => <>{idx === 0 ? <><span className="additional">{verse[0]}</span>{verse.substring(1)}</> : verse} <br /></>)}</p>
+                            <p className={`hymn__part ${hymnPart.startsWith("\tAlbo") ? "additional" : ""}`}>{hymnPart.split("\n").map((verse, idx) => <>{idx === 0 ? <><span className="additional">{verse[0]}</span>{verse.substring(1)}</> : verse} <br /></>)}</p>
                         </>)
                     })
                 }

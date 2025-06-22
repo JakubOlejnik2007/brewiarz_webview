@@ -11,10 +11,16 @@
         li {
             flex-grow: 1;
             text-align: center;
+            align-items: center;
+            vertical-align: middle;
             border: 1px solid var(--additional-text);
             border-collapse: collapse;
             color: var(--additional-text);
             padding: 5px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             &:first-child {
                 border-radius: 20px 0 0 20px;
