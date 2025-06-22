@@ -1,0 +1,8 @@
+.short-reading {
+    width: 60ch;
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+    }
+}
