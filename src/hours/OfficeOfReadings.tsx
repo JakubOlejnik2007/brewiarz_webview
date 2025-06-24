@@ -6,6 +6,7 @@ import { useState } from "react";
 import Psalmodia from "../partials/Psalmodia";
 import numeration from "../utils/numeration";
 import Hymn from "../partials/Hymn";
+import Gloria from "../partials/Gloria";
 
 
 
@@ -34,20 +35,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
         <section>
             <h2 className="hour__heading">Godzina Czytań</h2>
 
-            <p className="indentation__block">
-                <span className="additional">K. </span>Boże, wejrzyj ku wspomożeniu memu.<br />
-                <span className="additional">W. </span>Panie, pośpiesz ku ratunkowi memu.
-            </p>
-
-            <p>
-                Chwała Ojcu i Synowi, i Duchowi Świętemu <br />
-                Jak była na początku, teraz i zawsze, <br />
-                i na wieki wieków. Amen. Alleluja.
-            </p>
-
-            <p className="indentation additional">
-                Powyższe teksty opuszcza się, jeśli tę Godzinę poprzedza Wezwanie.
-            </p>
+            <Gloria isInvitationBefore={true} />
 
             <Hymn hymns={hymn} />
 
