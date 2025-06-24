@@ -5,7 +5,7 @@ interface AntiphonProps {
 
 const Antiphon = ({ antiphon, count }: AntiphonProps) => {
     return (
-        <p className="indentation">
+        <p className="indentation separator">
             <span className="additional">
                 {!count ? "Ant. " : `${count} ant. `}
             </span>

@@ -67,7 +67,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
                     const length = readingGroup.length
 
                     return (
-                        <>
+                        <div className="hour-part">
                             {length > 0 ?
                                 <>
                                     <h3 className="ofr__reading-number">{numeration[readingGroupIdx]} Czytanie</h3>
@@ -81,7 +81,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
 
                             <LongReading {...readingGroup[selectedReadings[readingGroupIdx]]} />
 
-                        </>
+                        </div>
                     )
                 })
             }

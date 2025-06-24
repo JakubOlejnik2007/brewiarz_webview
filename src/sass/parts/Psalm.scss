@@ -1,7 +1,6 @@
 .psalm {
     display: block;
     text-align: center;
-    margin: auto;
     text-align: left;
 
     &__title {
@@ -28,7 +27,4 @@
 
     &__content {}
 
-    p {
-        margin: 20px;
-    }
 }

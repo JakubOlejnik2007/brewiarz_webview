@@ -6,7 +6,7 @@ interface TResponsoryProps extends TResponsory { }
 
 const Responsory = ({ por, content }: TResponsoryProps) => {
     return (
-        <div className="responsory">
+        <div className="hour-part responsory">
             <div className="responsory__heading-block">
                 <h3 className="responsory__heading">Responsorium</h3>
                 <p className="responsory__por">{por}</p>

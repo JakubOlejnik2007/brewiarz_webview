@@ -1,6 +1,7 @@
 const LV_ending = () => {
     return (
-        <div><h3 className="additional">Zakończenie Godziny</h3>
+        <div className="hour-part">
+            <h3 className="additional">Zakończenie Godziny</h3>
             <p className="indentation additional">
                 Jeśli  kapłan  lub  diakon  przewodniczy  oficjum,  zwraca  się
                 do  wiernych  ze  słowami:

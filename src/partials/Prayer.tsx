@@ -34,7 +34,7 @@ const Prayer = ({ prayers, isOremus = false }: TPrayer) => {
     })
 
     return (
-        <div className="prayer">
+        <div className="hour-part prayer">
             <h3 className="additional">Modlitwa</h3>
             {length > 0 ?
                 <>

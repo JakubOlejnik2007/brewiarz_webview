@@ -1,6 +1,6 @@
 const Pater = () => {
     return (
-        <>
+        <div className="hour-part">
             <h3 className="additional">Modlitwa Pańska</h3>
             <p>
                 Ojcze  nasz,  któryś jest w  niebie,<br />
@@ -12,7 +12,7 @@ const Pater = () => {
                 i  nie  wódź  nas  na  pokuszenie,<br />
                 ale  nas  zbaw  ode  złego.
             </p>
-        </>
+        </div>
 
     )
 }

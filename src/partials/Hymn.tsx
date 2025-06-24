@@ -11,7 +11,7 @@ const Hymn = ({ hymns }: THymnProps) => {
 
 
     return (
-        <div className="hymn">
+        <div className="hour-part hymn">
             <h3 className="additional">Hymn</h3>
             {hymns.length > 1 ?
                 <ol className="switching-list">

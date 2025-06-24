@@ -15,7 +15,7 @@ const InvitationPsalm = ({ psalm, antiphon }: InvitationPsalmProps) => {
     const psalmVerse = psalm.verse as string;
 
     return (
-        <div className="psalm">
+        <div className="psalm hour-part">
             <h3 className="psalm__title">{psalm.title}</h3>
             <h4 className="psalm__subtitle">{psalm.subtitle}</h4>
             <p className="psalm__verse">
@@ -27,7 +27,7 @@ const InvitationPsalm = ({ psalm, antiphon }: InvitationPsalmProps) => {
             {
                 parts.map(psalmPart => {
                     console.log(psalmPart)
-                    return (<><p className="psalm-verse">
+                    return (<><p className="psalm-verse separator">
                         {psalmPart.split("\n").map(psalmVerse => <>{psalmVerse}<br /></>)}
 
 
