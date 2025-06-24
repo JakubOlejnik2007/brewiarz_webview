@@ -1,5 +1,5 @@
 import type { TPsalm } from "../types/Psalm.type";
-import '../sass/Psalm.scss'
+import '../sass/parts/Psalm.scss'
 import Antiphon from "./Antiphon";
 
 interface TPsalmProps extends TPsalm {

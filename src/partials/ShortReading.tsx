@@ -1,5 +1,5 @@
 import type { TShortReading } from "../types/ShortReading.type";
-import "../sass/ShortReading.scss"
+import "../sass/parts/ShortReading.scss"
 const ShortReading = ({ sigla, content }: TShortReading) => {
     return (
         <div className="short-reading">

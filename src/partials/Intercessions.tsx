@@ -1,5 +1,5 @@
 import type { TIntercessions } from "../types/TIntercessions.type";
-import "../sass/Intercessions.scss"
+import "../sass/parts/Intercessions.scss"
 const Intercessions = ({ introduction, response, intercessions }: TIntercessions) => {
     return (
         <div className="intercessions">
@@ -16,7 +16,7 @@ const Intercessions = ({ introduction, response, intercessions }: TIntercessions
                                 {intercessionSplitted[0]}<br />
                                 <span className="additional">- </span>
                                 {intercessionSplitted[1]}
-                                </p>
+                            </p>
                             <p className="italic">{response}</p>
                             <br />
                         </div>

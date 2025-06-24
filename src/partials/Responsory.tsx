@@ -1,5 +1,5 @@
 import type { TResponsory } from "../types/Responsory.type"
-import "../sass/Responsory.scss"
+import "../sass/parts/Responsory.scss"
 import colorAdditional from "../utils/colorAdditional"
 
 interface TResponsoryProps extends TResponsory { }

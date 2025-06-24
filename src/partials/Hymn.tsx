@@ -1,6 +1,6 @@
 import { useState } from "react";
 import numeration from "../utils/numeration";
-import "../sass/Hymn.scss"
+import "../sass/parts/Hymn.scss"
 import capitalizeFirstLetter from "../utils/capitalizeFirstLetter";
 interface THymnProps {
     hymns: string[]

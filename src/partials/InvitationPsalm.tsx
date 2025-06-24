@@ -1,6 +1,6 @@
 import type { TPsalm } from "../types/Psalm.type";
 import Antiphon from "./Antiphon";
-import "../sass/Psalm.scss"
+import "../sass/parts/Psalm.scss"
 
 
 interface InvitationPsalmProps {
