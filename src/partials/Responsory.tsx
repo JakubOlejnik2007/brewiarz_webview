@@ -1,5 +1,6 @@
 import type { TResponsory } from "../types/Responsory.type"
 import "../sass/Responsory.scss"
+import colorAdditional from "../utils/colorAdditional"
 
 interface TResponsoryProps extends TResponsory { }
 
@@ -14,22 +15,17 @@ const Responsory = ({ por, content }: TResponsoryProps) => {
                 {
                     content.length === 3 ?
                         <>
-                            <p><span className="additional">W.</span> {content[0].split(/([/*†])/).map((part, idx) =>
-                                part === '/' || part === '*' || part === "†" ? (
-                                    <span className="additional">{part}</span>
-                                ) : (
-                                    <span>{part}</span>
-                                )
-                            )}</p>
-                            <p><span className="additional">K.</span> {content[1]}</p>
-                            <p><span className="additional">W.</span> {content[0].split(" * ")[1].split(/([/*†])/).map((part, idx) =>
-                                part === '/' || part === '*' || part === "†" ? (
-                                    <span className="additional">{part}</span>
-                                ) : (
-                                    <span>{part}</span>
-                                )
-                            )}</p>
-                        </> : <></>
+                            <p><span className="additional">W.</span> {colorAdditional(content[0])}</p>
+                            <p><span className="additional">K.</span> {colorAdditional(content[1])}</p>
+                            <p><span className="additional">W.</span> {colorAdditional(content[0].split("*")[1].trim())}</p>
+                        </> : <>
+                            <p><span className="additional">K.</span> {colorAdditional(content[0])}</p>
+                            <p><span className="additional">W.</span> {colorAdditional(content[0])}</p>
+                            <p><span className="additional">K.</span> {colorAdditional(content[2])}</p>
+                            <p><span className="additional">W.</span> {colorAdditional(content[0].split("*")[1].trim())}</p>
+                            <p><span className="additional">K.</span> Chwała Ojcu i Synowi, i Duchowi Świętemu</p>
+                            <p><span className="additional">W.</span> {colorAdditional(content[0])}</p>
+                        </>
                 }
             </div>
         </div>

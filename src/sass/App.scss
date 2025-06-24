@@ -6,7 +6,7 @@
   color: var(--text-color);
   background-color: var(--bg-color);
   text-align: justify;
-  --fixed-width: 50ch;
+  --fixed-width: 60ch;
   --body-padding: 1rem;
 }
 
@@ -25,6 +25,10 @@ body {
 
 .no-additional {
   color: var(--text-color)
+}
+
+.italic {
+  font-style: italic;
 }
 
 .no-italic {

@@ -1,5 +1,5 @@
 .hymn {
-    width: 60ch;
+    width: var(--fixed-width);
 
     &__switch-hymn {
         list-style: none;

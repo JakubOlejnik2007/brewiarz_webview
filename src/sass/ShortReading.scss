@@ -1,0 +1,8 @@
+.short-reading {
+    width: var(--fixed-width);
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+    }
+}

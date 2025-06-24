@@ -1,5 +1,5 @@
 .lr {
-    max-width: 60ch;
+    max-width: var(--fixed-width);
     margin: 0 auto;
 
     &__heading {
@@ -35,27 +35,21 @@
     }
 
     &__switch-reading {
+        width: var(--fixed-width);
         list-style: none;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 5px;
         padding: 0;
 
-
-
         li {
-            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             border: 1px solid var(--additional-text);
-            border-collapse: collapse;
             color: var(--additional-text);
             padding: 5px;
-
-            &:first-child {
-                border-radius: 20px 0 0 20px;
-            }
-
-            &:last-child {
-                border-radius: 0 20px 20px 0;
-            }
 
             &.active {
                 background-color: var(--additional-text);

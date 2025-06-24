@@ -12,25 +12,26 @@ const Hymn = ({ hymns }: THymnProps) => {
 
     return (
         <div className="hymn">
-            <ol className="hymn__switch-hymn">
-                {
-                    hymns.map((hymn, idx) => {
+            {hymns.length > 1 ?
+                <ol className="hymn__switch-hymn">
+                    {
+                        hymns.map((hymn, idx) => {
 
-                        const firstLine = hymn.split("\n")[0]
-                        console.log(firstLine.split(":")[0].split("Albo")[1])
-                        let firstLineSimple = firstLine.split(":")[0].trim()
-                        console.log(firstLineSimple.indexOf("Albo"))
-                        firstLineSimple = firstLineSimple.indexOf("Albo") === 0 ? firstLineSimple.split("Albo")[1].trim() : firstLineSimple;
-                        firstLineSimple = capitalizeFirstLetter(firstLineSimple)
+                            const firstLine = hymn.split("\n")[0]
+                            console.log(firstLine.split(":")[0].split("Albo")[1])
+                            let firstLineSimple = firstLine.split(":")[0].trim()
+                            console.log(firstLineSimple.indexOf("Albo"))
+                            firstLineSimple = firstLineSimple.indexOf("Albo") === 0 ? firstLineSimple.split("Albo")[1].trim() : firstLineSimple;
+                            firstLineSimple = capitalizeFirstLetter(firstLineSimple)
 
-                        return (
-                            <li className={selectedHymn === idx ? "active" : ""}
-                                onClick={() => setSelectedHymn(idx)}
-                            >{numeration[idx]} {firstLine.indexOf("\t") === 0 ? <><br />{firstLineSimple}</> : ""}</li>
-                        )
-                    })
-                }
-            </ol>
+                            return (
+                                <li className={selectedHymn === idx ? "active" : ""}
+                                    onClick={() => setSelectedHymn(idx)}
+                                >{numeration[idx]} {firstLine.indexOf("\t") === 0 ? <><br />{firstLineSimple}</> : ""}</li>
+                            )
+                        })
+                    }
+                </ol> : ""}
 
             <div className="hymn__hymn">
                 {
