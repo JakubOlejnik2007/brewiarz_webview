@@ -34,7 +34,7 @@ const Prayer = ({ prayers, isOremus = false }: TPrayer) => {
     })
 
     return (
-        <div className="prayer" style={{ width: "var(--fixed-width)" }}>
+        <div className="prayer">
             {length > 0 ?
                 <>
                     <ol className="lr__switch-reading">

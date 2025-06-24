@@ -1,5 +1,4 @@
 .lr {
-    max-width: var(--fixed-width);
     margin: 0 auto;
 
     &__heading {
@@ -35,7 +34,7 @@
     }
 
     &__switch-reading {
-        width: var(--fixed-width);
+
         list-style: none;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));

@@ -1,6 +1,6 @@
 const LV_ending = () => {
     return (
-        <div style={{ width: "60ch" }}>
+        <div>
             <p className="indentation additional">
                 Jeśli  kapłan  lub  diakon  przewodniczy  oficjum,  zwraca  się
                 do  wiernych  ze  słowami:

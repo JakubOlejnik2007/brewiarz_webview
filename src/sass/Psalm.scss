@@ -21,19 +21,12 @@
     }
 
     &__verse {
-        max-width: 50ch;
         margin: 0 auto;
         font-style: italic;
         text-align: justify;
     }
 
-    &__content {
-        white-space: pre-line;
-    }
-
-    &__antiphon {
-        max-width: var(--fixed-width);
-    }
+    &__content {}
 
     p {
         margin: 20px;
