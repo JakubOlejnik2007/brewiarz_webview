@@ -32,7 +32,7 @@ const Invititation = ({ antiphon, prefferedPsalm = 1 }: InvtitationProps) => {
                 Wszyscy - <span className="no-additional">A usta moje będą głosić Twoją chwałę.</span>
             </p>
 
-            <ol className="invitation__switch-psalms">
+            <ol className="switching-list">
                 {
                     psalms.map((psalm, idx) => {
                         return (

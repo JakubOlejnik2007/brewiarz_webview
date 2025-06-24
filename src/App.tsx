@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './sass/App.scss'
 import './sass/Layout.scss'
+import './sass/Switching.scss'
 import type { FullOffice } from './types/FullOffice.interface';
 import Invititation from './hours/Invitation';
 import OfficeOfReadings from './hours/OfficeOfReadings';

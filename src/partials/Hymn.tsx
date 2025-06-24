@@ -13,7 +13,7 @@ const Hymn = ({ hymns }: THymnProps) => {
     return (
         <div className="hymn">
             {hymns.length > 1 ?
-                <ol className="hymn__switch-hymn">
+                <ol className="switching-list">
                     {
                         hymns.map((hymn, idx) => {
 

@@ -27,7 +27,7 @@ const Psalmodia = ({ psalmodia }: TPsalmodiaProps) => {
                     return (
                         <>{psalms.length > 1 ?
                             <>
-                                <ol className="lr__switch-reading">
+                                <ol className="switching-list">
                                     {Array.from({ length }, (_, i) => (
                                         <li className={selectedPsalms[idx] === i ? "active" : ""} key={i} onClick={() => updatePsalm(idx, i)}>{numeration[i]}</li>
                                     ))}
