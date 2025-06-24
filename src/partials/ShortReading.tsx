@@ -4,7 +4,7 @@ const ShortReading = ({ sigla, content }: TShortReading) => {
     return (
         <div className="short-reading">
             <div className="short-reading__heading">
-                <p className="additional">Czytanie</p>
+                <h3 className="additional">Czytanie</h3>
                 <p className="additional">{sigla}</p>
             </div>
             <p className="indentation">{content}</p>

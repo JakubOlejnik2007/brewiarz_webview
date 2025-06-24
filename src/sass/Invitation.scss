@@ -6,28 +6,7 @@
     }
 
     &__introduction {
-
         color: var(--additional-text)
-    }
-
-    &__switch-psalms {
-        list-style: none;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        gap: 5px;
-        padding: 0;
-
-        li {
-            text-align: center;
-            border: 1px solid var(--additional-text);
-            color: var(--additional-text);
-            padding: 5px;
-
-            &.active {
-                background-color: var(--additional-text);
-                color: var(--bg-color);
-            }
-        }
     }
 
 

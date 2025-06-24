@@ -15,8 +15,6 @@ nav {
 
 main {
     grid-area: main;
-    width: 50ch;
-    margin: auto;
 }
 
 aside {
@@ -38,6 +36,15 @@ div#root {
     grid-template-rows: auto auto 1fr auto;
 }
 
+main>section {
+    margin: auto;
+    width: 60ch;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
 @media (max-width: 768px) {
     div#root {
         grid-template-areas:
@@ -49,7 +56,7 @@ div#root {
         grid-template-columns: 1fr;
     }
 
-    main {
+    main>section {
         width: 90vw;
     }
 }

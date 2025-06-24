@@ -55,11 +55,9 @@ function App() {
             fileContent && fileContent.hours.map((hour, idx) => <li><button onClick={e => setHour(idx)}>{hour.name}</button></li>)
           }
           </ul>
-          <div>
-            {fileContent && hour === 0 && <Invititation {...(fileContent.hours[0])} />}
-            {fileContent && hour === 1 && <OfficeOfReadings {...(fileContent.hours[1])} />}
-            {fileContent && hour === 2 && <Laudes {...(fileContent.hours[2])} />}
-          </div>
+          {fileContent && hour === 0 && <Invititation {...(fileContent.hours[0])} />}
+          {fileContent && hour === 1 && <OfficeOfReadings {...(fileContent.hours[1])} />}
+          {fileContent && hour === 2 && <Laudes {...(fileContent.hours[2])} />}
         </>
       }
 

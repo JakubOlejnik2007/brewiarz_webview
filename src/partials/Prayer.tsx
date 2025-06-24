@@ -35,6 +35,7 @@ const Prayer = ({ prayers, isOremus = false }: TPrayer) => {
 
     return (
         <div className="prayer">
+            <h3 className="additional">Modlitwa</h3>
             {length > 0 ?
                 <>
                     <ol className="switching-list">

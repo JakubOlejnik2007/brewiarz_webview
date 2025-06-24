@@ -16,9 +16,9 @@ const Psalm = ({ antiphon, title, subtitle, numeration, verse, psalm, doxologia,
     return (
         <div className="psalm">
             {count ? <Antiphon antiphon={antiphon} count={count} /> : <Antiphon antiphon={antiphon} />}
-            {title ? <h3 className="psalm__title">{title}</h3> : ""}
-            {subtitle ? <h4 className="psalm__subtitle">{subtitle}</h4> : ""}
-            {numeration ? <h5 className="psalm__numeration">{numeration}</h5> : ""}
+            {title ? <p className="psalm__title">{title}</p> : ""}
+            {subtitle ? <p className="psalm__subtitle">{subtitle}</p> : ""}
+            {numeration ? <p className="psalm__numeration">{numeration}</p> : ""}
             {
                 verse ? <p className="psalm__verse">
                     {verse.substring(0, verse.indexOf("("))}
