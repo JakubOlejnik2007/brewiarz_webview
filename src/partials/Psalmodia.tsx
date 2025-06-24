@@ -19,7 +19,7 @@ const Psalmodia = ({ psalmodia }: TPsalmodiaProps) => {
     }
 
     return (
-        <div className="hour-part">
+        <div className="hour__part">
             <h3 className="additional">Psalmodia</h3>
             {
                 psalmodia.map((psalms, idx) => {

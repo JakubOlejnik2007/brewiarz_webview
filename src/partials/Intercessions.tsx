@@ -2,7 +2,7 @@ import type { TIntercessions } from "../types/TIntercessions.type";
 import "../sass/parts/Intercessions.scss"
 const Intercessions = ({ introduction, response, intercessions }: TIntercessions) => {
     return (
-        <div className="hour-part">
+        <div className="hour__part">
             <h3 className="additional">Prośby</h3>
             <p>{introduction}</p>
             <p className="italic">{response}</p>

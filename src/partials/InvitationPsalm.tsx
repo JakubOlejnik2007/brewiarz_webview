@@ -15,7 +15,7 @@ const InvitationPsalm = ({ psalm, antiphon }: InvitationPsalmProps) => {
     const psalmVerse = psalm.verse as string;
 
     return (
-        <div className="psalm hour-part">
+        <div className="psalm hour__part">
             <h3 className="psalm__title">{psalm.title}</h3>
             <h4 className="psalm__subtitle">{psalm.subtitle}</h4>
             <p className="psalm__verse">
