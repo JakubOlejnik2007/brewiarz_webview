@@ -1,8 +1,8 @@
 const colorAdditional = (text: string) => {
     return (
         <>
-            {text.split(/([/*†])/).map(part =>
-                part === '/' || part === '*' || part === "†" ? (
+            {text.split(/(N\.|[/*†()])/).map(part =>
+                part === '/' || part === '*' || part === "†" || part === "(" || part === ")" || part === "N." ? (
                     <span className="additional">{part}</span>
                 ) : (
                     <span>{part}</span>
