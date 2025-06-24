@@ -1,6 +1,6 @@
 import { useState } from "react";
 import numeration from "../utils/numeration";
-import "../sass/Hymn.scss"
+import "../sass/parts/Hymn.scss"
 import capitalizeFirstLetter from "../utils/capitalizeFirstLetter";
 interface THymnProps {
     hymns: string[]
@@ -11,9 +11,10 @@ const Hymn = ({ hymns }: THymnProps) => {
 
 
     return (
-        <div className="hymn">
+        <div className="hour__part hymn">
+            <h3 className="additional">Hymn</h3>
             {hymns.length > 1 ?
-                <ol className="hymn__switch-hymn">
+                <ol className="switching-list">
                     {
                         hymns.map((hymn, idx) => {
 

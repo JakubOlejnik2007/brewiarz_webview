@@ -1,12 +1,12 @@
 import type { TResponsory } from "../types/Responsory.type"
-import "../sass/Responsory.scss"
+import "../sass/parts/Responsory.scss"
 import colorAdditional from "../utils/colorAdditional"
 
 interface TResponsoryProps extends TResponsory { }
 
 const Responsory = ({ por, content }: TResponsoryProps) => {
     return (
-        <div className="responsory">
+        <div className="hour__part responsory">
             <div className="responsory__heading-block">
                 <h3 className="responsory__heading">Responsorium</h3>
                 <p className="responsory__por">{por}</p>

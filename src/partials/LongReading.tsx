@@ -1,5 +1,5 @@
 import type { TLongReading } from "../types/LongReading.type"
-import "../sass/LongReading.scss"
+import "../sass/parts/LongReading.scss"
 import Responsory from "./Responsory";
 
 const LongReading = ({ number, name, title, sigla, content, responsory, ...props }: TLongReading) => {

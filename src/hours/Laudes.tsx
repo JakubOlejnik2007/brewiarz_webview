@@ -1,3 +1,4 @@
+import Gloria from "../partials/Gloria";
 import Hymn from "../partials/Hymn";
 import Intercessions from "../partials/Intercessions";
 import LV_ending from "../partials/LV_ending";
@@ -11,7 +12,8 @@ import type { TLaudes } from "../types/Laudes.type";
 const Laudes = ({ hymn, psalmodia, reading, intercessions, responsory, prayer }: TLaudes) => {
     return (
         <section className="laudes">
-            <h2 className="invitation__heading">Jutrznia</h2>
+            <h2 className="hour__heading">Jutrznia</h2>
+            <Gloria isInvitationBefore={true} />
             <Hymn hymns={hymn} />
             <Psalmodia psalmodia={psalmodia} />
             <ShortReading {...reading} />

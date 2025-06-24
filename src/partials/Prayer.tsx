@@ -34,10 +34,11 @@ const Prayer = ({ prayers, isOremus = false }: TPrayer) => {
     })
 
     return (
-        <div className="prayer" style={{ width: "var(--fixed-width)" }}>
+        <div className="hour__part prayer">
+            <h3 className="additional">Modlitwa</h3>
             {length > 0 ?
                 <>
-                    <ol className="lr__switch-reading">
+                    <ol className="switching-list">
                         {Array.from({ length }, (_, i) => (
                             <li className={selectedPrayer === i ? "active" : ""} key={i} onClick={() => setSelectedPrayer(i)}>{prayers[i].split("\n")[0]}</li>
                         ))}

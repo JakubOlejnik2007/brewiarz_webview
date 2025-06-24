@@ -45,10 +45,6 @@ p {
   margin: 0;
 }
 
-.hour-content {
-  margin: 0 auto;
-  width: fit-content;
-}
 
 .indentation {
   &__block {
@@ -60,5 +56,12 @@ p {
   }
 }
 
+
+
+.separator {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @import 'Colors.scss';
-@import 'Responsive.scss';
+@import 'hour.scss'

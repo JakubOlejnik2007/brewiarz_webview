@@ -5,7 +5,7 @@ interface AntiphonProps {
 
 const Antiphon = ({ antiphon, count }: AntiphonProps) => {
     return (
-        <div className="psalm__antiphon indentation">
+        <p className="indentation separator">
             <span className="additional">
                 {!count ? "Ant. " : `${count} ant. `}
             </span>
@@ -18,7 +18,7 @@ const Antiphon = ({ antiphon, count }: AntiphonProps) => {
                     )
                 )
             }
-        </div>
+        </p>
     )
 }
 

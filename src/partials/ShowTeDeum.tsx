@@ -7,7 +7,7 @@ const ShowTeDeum = ({ text }: ShowTeDeumProps) => {
     const textLines = text.split("\n")
 
     return (
-        <div className="ofr__TeDeum">
+        <div className="hour__part ofr__TeDeum">
             {
                 textLines.map((line, idx) => {
 

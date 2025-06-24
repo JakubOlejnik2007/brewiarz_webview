@@ -1,5 +1,4 @@
 import OfficeOfReadingsData from "../assets/office_of_readings.json";
-import "../sass/OfficeOfReadings.scss"
 import ShowTeDeum from "../partials/ShowTeDeum";
 import type { TOfficeOfReadings } from "../types/OfficeOfReadings.type";
 import LongReading from "../partials/LongReading";
@@ -7,10 +6,12 @@ import { useState } from "react";
 import Psalmodia from "../partials/Psalmodia";
 import numeration from "../utils/numeration";
 import Hymn from "../partials/Hymn";
+import Gloria from "../partials/Gloria";
+import Prayer from "../partials/Prayer";
 
 
 
-const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props }: TOfficeOfReadings) => {
+const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, prayer }: TOfficeOfReadings) => {
 
     const [selectedReadings, setSelectedReadings] = useState([0, 0, 0, 0]);
 
@@ -32,23 +33,10 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
     }
 
     return (
-        <section className="ofr">
-            <h2 className="invitation__heading">Godzina Czytań</h2>
+        <section>
+            <h2 className="hour__heading">Godzina Czytań</h2>
 
-            <p className="ofr__introduction indentation__block">
-                <span className="additional">K. </span>Boże, wejrzyj ku wspomożeniu memu.<br />
-                <span className="additional">W. </span>Panie, pośpiesz ku ratunkowi memu.
-            </p>
-
-            <p className="ofr__introduction">
-                Chwała Ojcu i Synowi, i Duchowi Świętemu <br />
-                Jak była na początku, teraz i zawsze, <br />
-                i na wieki wieków. Amen. Alleluja.
-            </p>
-
-            <p className="ofr__introduction indentation additional">
-                Powyższe teksty opuszcza się, jeśli tę Godzinę poprzedza Wezwanie.
-            </p>
+            <Gloria isInvitationBefore={true} />
 
             <Hymn hymns={hymn} />
 
@@ -56,7 +44,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
                 <Psalmodia {...{ psalmodia }} />
             }
 
-            <p className="ofr__introduction indentation__block">
+            <p className="indentation__block">
                 <span className="additional">K. </span>{verse[0]}<br />
                 <span className="additional">W. </span>{verse[1]}
             </p>
@@ -67,11 +55,11 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
                     const length = readingGroup.length
 
                     return (
-                        <>
+                        <div className="hour__part">
                             {length > 0 ?
                                 <>
-                                    <h3 className="ofr__reading-number">{numeration[readingGroupIdx]} Czytanie</h3>
-                                    <ol className="lr__switch-reading">
+                                    <h3 className="additional">{numeration[readingGroupIdx]} Czytanie</h3>
+                                    <ol className="switching-list">
                                         {Array.from({ length }, (_, i) => (
                                             <li className={selectedReadings[readingGroupIdx] === i ? "active" : ""} key={i} onClick={() => updateReading(readingGroupIdx, i)}>{numeration[i]}</li>
                                         ))}
@@ -81,7 +69,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
 
                             <LongReading {...readingGroup[selectedReadings[readingGroupIdx]]} />
 
-                        </>
+                        </div>
                     )
                 })
             }
@@ -92,6 +80,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
                     <ShowTeDeum text={OfficeOfReadingsData.TeDeum[1]} /></> : ""
             }
 
+            <Prayer prayers={prayer} />
         </section >
     )
 }

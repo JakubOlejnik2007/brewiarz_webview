@@ -19,7 +19,8 @@ const Psalmodia = ({ psalmodia }: TPsalmodiaProps) => {
     }
 
     return (
-        <>
+        <div className="hour__part">
+            <h3 className="additional">Psalmodia</h3>
             {
                 psalmodia.map((psalms, idx) => {
                     const length = psalms.length
@@ -27,7 +28,7 @@ const Psalmodia = ({ psalmodia }: TPsalmodiaProps) => {
                     return (
                         <>{psalms.length > 1 ?
                             <>
-                                <ol className="lr__switch-reading">
+                                <ol className="switching-list">
                                     {Array.from({ length }, (_, i) => (
                                         <li className={selectedPsalms[idx] === i ? "active" : ""} key={i} onClick={() => updatePsalm(idx, i)}>{numeration[i]}</li>
                                     ))}
@@ -40,7 +41,7 @@ const Psalmodia = ({ psalmodia }: TPsalmodiaProps) => {
                     )
                 })
             }
-        </>
+        </div>
     )
 }
 

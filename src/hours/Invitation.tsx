@@ -1,7 +1,6 @@
 import InvitationData from "../assets/invitation.json";
 import type { TInvitationPsalms } from "../types/Invitation.type";
 import InvitationPsalm from "../partials/InvitationPsalm";
-import "../sass/Invitation.scss"
 import { useState } from "react";
 
 type InvitationPsalmsIndexes = 1 | 2 | 3 | 4;
@@ -21,18 +20,18 @@ const Invititation = ({ antiphon, prefferedPsalm = 1 }: InvtitationProps) => {
     const invitation = InvitationData as TInvitationPsalms;
 
     return (
-        <section className="invitation">
-            <h2 className="invitation__heading">Wezwanie</h2>
+        <section>
+            <h2 className="hour__heading">Wezwanie</h2>
 
-            <p className="invitation__introduction">
-                Jeśli psalm Wezwania ze swoją antyfoną ma poprzedzać Jutrznię, można go opuścić ze słusznej przyczyny.
+            <p>
+                <span className="additional">Jeśli psalm Wezwania ze swoją antyfoną ma poprzedzać Jutrznię, można go opuścić ze słusznej przyczyny.</span>
                 <br /><br />
 
-                Przewodniczący - † <span className="no-additional">Panie, otwórz wargi moje.</span> <br />
-                Wszyscy - <span className="no-additional">A usta moje będą głosić Twoją chwałę.</span>
+                <span className="additional">Przewodniczący - † </span>Panie, otwórz wargi moje. <br />
+                <span className="additional">Wszyscy - </span>A usta moje będą głosić Twoją chwałę.
             </p>
 
-            <ol className="invitation__switch-psalms">
+            <ol className="switching-list">
                 {
                     psalms.map((psalm, idx) => {
                         return (

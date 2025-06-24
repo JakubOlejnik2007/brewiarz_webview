@@ -1,0 +1,37 @@
+.lr {
+    margin: 0 auto;
+
+    &__heading {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    &__sigla {
+        text-align: right;
+        justify-content: end;
+        align-items: flex-end;
+        color: var(--additional-text);
+
+        &--hagio {
+            text-align: center;
+        }
+    }
+
+    &__heading_sigla {
+        display: block;
+        text-align: center;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 100%;
+        color: var(--additional-text);
+        font-style: italic;
+    }
+
+    &__name {
+        text-align: left;
+    }
+
+
+}

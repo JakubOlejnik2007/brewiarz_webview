@@ -1,7 +1,6 @@
 .psalm {
     display: block;
     text-align: center;
-    margin: auto;
     text-align: left;
 
     &__title {
@@ -21,21 +20,11 @@
     }
 
     &__verse {
-        max-width: 50ch;
         margin: 0 auto;
         font-style: italic;
         text-align: justify;
     }
 
-    &__content {
-        white-space: pre-line;
-    }
+    &__content {}
 
-    &__antiphon {
-        max-width: var(--fixed-width);
-    }
-
-    p {
-        margin: 20px;
-    }
 }
