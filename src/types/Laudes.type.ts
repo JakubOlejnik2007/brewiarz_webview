@@ -11,5 +11,5 @@ export interface TLaudes {
     responsory: TResponsory,
     antiphon: string[],
     intercessions: TIntercessions,
-    prayer: string
+    prayer: string[]
 }
