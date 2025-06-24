@@ -7,6 +7,8 @@ import OfficeOfReadings from './hours/OfficeOfReadings';
 import Laudes from './hours/Laudes';
 import Header from './page/Header';
 import OfficeHeader from './page/OfficeHeader';
+import Aside from './page/Aside';
+import Footer from './page/Footer';
 
 function App() {
   const [fileContent, setFileContent] = useState<null | FullOffice>(null);
@@ -61,6 +63,8 @@ function App() {
       }
 
     </main>
+    <Aside />
+    <Footer />
   </>
 
   )
