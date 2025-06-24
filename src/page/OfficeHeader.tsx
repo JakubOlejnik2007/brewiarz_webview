@@ -7,7 +7,6 @@ const OfficeHeader = ({ officeName, date }: TOfficeHeaderProps) => {
 
     const dateAttr = date.toISOString().split("T")[0];
 
-    const options = { day: 'numeric', month: 'long', year: 'numeric' };
     const formatted = date.toLocaleDateString('pl-PL', {
         day: "numeric", month: "long", year: "numeric"
     });
