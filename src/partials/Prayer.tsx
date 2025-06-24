@@ -1,13 +1,13 @@
 import { useState } from "react";
 import PrayerEndings from "../assets/prayer_endings.json"
-import numeration from "../utils/numeration";
 import colorAdditional from "../utils/colorAdditional";
 
 interface TPrayer {
     prayers: string[];
+    isOremus?: boolean;
 }
 
-const Prayer = ({ prayers }: TPrayer) => {
+const Prayer = ({ prayers, isOremus = false }: TPrayer) => {
     console.log(PrayerEndings)
 
     const [selectedPrayer, setSelectedPrayer] = useState(0);
@@ -37,7 +37,7 @@ const Prayer = ({ prayers }: TPrayer) => {
         <div className="prayer" style={{ width: "var(--fixed-width)" }}>
             {length > 0 ?
                 <>
-                    <ol className="lr__switch-reading" style={{ width: "60ch" }}>
+                    <ol className="lr__switch-reading">
                         {Array.from({ length }, (_, i) => (
                             <li className={selectedPrayer === i ? "active" : ""} key={i} onClick={() => setSelectedPrayer(i)}>{prayers[i].split("\n")[0]}</li>
                         ))}
@@ -46,10 +46,13 @@ const Prayer = ({ prayers }: TPrayer) => {
                 : <></>}
 
             {
-                prayer.length > 1 ? <>
+                isComment ? <>
                     <p className="additional">{additional}</p>
+                    {isOremus && <p className="italic">Módlmy się:</p>}
                     <p className="indentation">{colorAdditional(prayer)}</p>
-                </> : <>{prayer}</>
+                </> : <>
+                    {isOremus && <p className="italic">Módlmy się:</p>}
+                    <p className="indentation">{colorAdditional(prayer)}</p></>
             }
         </div>
     )
