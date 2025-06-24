@@ -35,6 +35,7 @@
     }
 
     &__switch-reading {
+        width: var(--fixed-width);
         list-style: none;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -42,6 +43,9 @@
         padding: 0;
 
         li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
             border: 1px solid var(--additional-text);
             color: var(--additional-text);
