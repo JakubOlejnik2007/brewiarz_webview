@@ -129,7 +129,16 @@
                     }
                 }
             ],
-            "prayer": "Modlitwa jak w Jutrzni."
+            "prayer": [
+                "\tZa zmarłego papieża:\nWszechmogący  i  wierny  Boże,  Ty  sprawiedliwie  nagradzasz  robotników  Twojej  winnicy,  †   Ty  ustanowiłeś następcą świętego Piotra i pasterzem całego Kościoła Twojego sługę, naszego papieża N., * spraw, aby w wieczności radował się owocami Twojej  łaski i miłosierdzia,  których wiernym  szafarzem  był  na  ziemi.  Przez  naszego  Pana.",
+                "\tZa zmarłego biskupa diecezji:\nWszechmogący  Boże,  spraw,  aby  Twój  sługa,  nasz biskup  N.,  któremu  powierzyłeś  troskę  o  Kościół  N.,  † wszedł do  radości  swojego  Mistrza  *  i  otrzymał  nagrodę za  apostolskie  trudy.  Przez  naszego  Pana.",
+                "\tZa  innego  zmarłego  biskupa  lub  kardynała:\nBoże, Ty obdarzyłeś biskupią godnością swojego sługę (kardynała)  N.  i dałeś  mu  udział w kapłaństwie  Apostołów,  *  włącz  go  na  wieki  do  ich  społeczności.  Przez  naszego  Pana.",
+                "\tZa zmarłego kapłana:\nMiłosierny  Boże,  spraw,  aby  Twój  sługa,  kapłan  N., którego  w  ziemskim  życiu  zaszczyciłeś  świętym  posłannictwem,  *  radował  się  wiecznie  w  niebieskiej  chwale. Przez  naszego  Pana.",
+                "\tZa  zmarłego  zakonnika  lub  zakonnicę:\nWszechmogący  Boże, zmarły brat (zmarła  siostra) N. dążył(a)  do  Ciebie  drogą  doskonałego  naśladowania Chrystusa,  którego  umiłował(a),  †   spraw,  aby  się  radował(a),  gdy  się  ukażesz  w  chwale  *  i  razem  ze  swoimi braćmi  (siostrami)  miał(a)  udział  w  szczęściu  wiecznym. Przez  naszego  Pana.",
+                "\tZa jednego  zmarłego:\nWszechmogący  Boże,  pokornie  Cię  błagamy,  †  okaż miłosierdzie  Twojemu  słudze  N.,  którego  (Twojej  służebnicy  N.,  którą)  na  tym  świecie  zaliczyłeś  do  Twojego  ludu,  *  i  przyjmij  go  (ją)  do  grona  Twoich  Świętych w  królestwie  pokoju  i  światła.  Przez  naszego  Pana.",
+                "\tZa  wielu  zmarłych:\nBoże,  Ty  sprawiłeś,  że  Twój  Syn  zwyciężył  śmierć i  wstąpił do  nieba, † daj  swoim sługom (służebnicom) N. i  N.  udział w Jego zwycięstwie nad śmiercią,  *  aby mogli (mogły)  na  wieki  oglądać  Ciebie,  swojego  Stwórcę  i  Odkupiciela.  Przez  naszego  Pana.",
+                "\tZa  zmarłych  krewnych,  przyjaciół  i  dobroczyńców:\nBoże,  Ty  pragniesz zbawienia  ludzi  i  hojnie udzielasz przebaczenia,  †  prosimy  Cię,  abyś  za  wstawiennictwem Najświętszej  Maryi  zawsze  Dziewicy  i  wszystkich  Świętych  *  dopuścił  naszych  zmarłych  krewnych,  przyjaciół i  dobroczyńców  do  udziału  w  wiecznej  szczęśliwości.  Przez  naszego  Pana."
+            ]
         },
         {
             "name": "Jutrznia",

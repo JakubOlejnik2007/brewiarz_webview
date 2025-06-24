@@ -7,10 +7,11 @@ import Psalmodia from "../partials/Psalmodia";
 import numeration from "../utils/numeration";
 import Hymn from "../partials/Hymn";
 import Gloria from "../partials/Gloria";
+import Prayer from "../partials/Prayer";
 
 
 
-const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props }: TOfficeOfReadings) => {
+const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, prayer }: TOfficeOfReadings) => {
 
     const [selectedReadings, setSelectedReadings] = useState([0, 0, 0, 0]);
 
@@ -79,6 +80,7 @@ const OfficeOfReadings = ({ isTeDeum, hymn, psalmodia, verse, readings, ...props
                     <ShowTeDeum text={OfficeOfReadingsData.TeDeum[1]} /></> : ""
             }
 
+            <Prayer prayers={prayer} />
         </section >
     )
 }

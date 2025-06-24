@@ -9,5 +9,5 @@ export type TOfficeOfReadings = {
     psalmodia: TPsalmodia,
     verse: string[],
     readings: TLongReading[],
-    prayer: string
+    prayer: string[]
 }
